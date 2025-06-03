@@ -27,7 +27,6 @@ Exploration of fairness in machine learning through hands-on analysis using the 
 - **Worksheet:** [Analysis Worksheet](https://docs.google.com/document/d/1XRQTGwyYw6vZ4e2LGDVSM8BEfbxoY16BLYA5OnLF8O8/edit?usp=sharing)
   - Students will need to copy to their drive to edit
   - Alternative: Print spaced-out copy for handwritten notes
-- **Solutions:** [Worksheet Solutions](https://docs.google.com/document/d/18fClKdqIS4ouugKD4er41NyKKsVny_Txk8Wwl51IPJI/edit?usp=sharing)
 
 ### Session 3: Group Discussion and Analysis
 - Share findings from COMPAS analysis
@@ -48,15 +47,4 @@ By the end of this class, students should be able to:
 - **Bias Detection:** Methods for identifying unfair model behavior
 - **Fairness Metrics:** Different ways to measure and define fairness
 
-## Materials Needed
-- Computer with internet access
-- Google account for document copying
-- Access to What-If Tool demos
-- Printed worksheets (optional)
 
-## Teaching Notes
-- Focus on real-world impact of biased algorithms
-- Encourage critical thinking about fairness definitions
-- Be prepared to discuss ethical implications
-- Have alternative exercises ready for different skill levels
-- Consider guest speaker from ethics/policy background

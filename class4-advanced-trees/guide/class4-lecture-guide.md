@@ -13,8 +13,7 @@ Building on previous decision tree knowledge with FairLearn integration and expl
 **Getting Everyone on the Same Page**
 - Review original Replit exercise together
 - [Decision Trees Lab](https://replit.com/@allenol/Decision-Trees)
-- Address any questions from previous class
-- Ensure all students can run the code successfully
+
 
 ### Session 2: FairLearn Integration (30 minutes)
 **Part II of Decision Trees**
@@ -31,15 +30,7 @@ Building on previous decision tree knowledge with FairLearn integration and expl
 
 ### Session 4: Ambitious Extensions (30 minutes)
 **Individual/Group Projects**
-- Help students with their extension projects
-- Provide guidance on advanced implementations
-- Troubleshoot technical issues
-- Encourage creative applications
 
-### Wrap-up (10 minutes)
-- Share interesting findings
-- Discuss next steps
-- Preview upcoming classes
 
 ## Learning Objectives
 By the end of this class, students should be able to:
@@ -54,9 +45,3 @@ By the end of this class, students should be able to:
 - **Fairness Metrics:** Quantitative measures of model fairness
 - **Model Comparison:** Evaluating different algorithms
 - **Code Extension:** Building upon existing implementations
-
-## Materials Needed
-- Computer with internet access
-- Replit account
-- Python environment with scikit-learn and FairLearn
-- Access to previous class materials

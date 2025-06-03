@@ -73,11 +73,6 @@ By the end of this class, students should be able to:
 - **Query, Key, Value:** Fundamental attention components
 - **Self-Attention:** Mechanism for sequence understanding
 
-## Materials Needed
-- Computer with internet access
-- Calculator or computer for matrix operations
-- Printed worksheets (recommended)
-- Access to Google Docs tutorials
 
 ## Backup Resources
 - [Northeastern SEED Grant Projects](https://idi.provost.northeastern.edu/seed-grant-projects/)

@@ -63,24 +63,6 @@ By the end of this class, students should be able to:
 - **Inference:** Running predictions on deployed models
 - **Capstone Project:** Independent application of course concepts
 
-## Materials Needed
-- Computer with internet access
-- Google account for Colab access
-- Hugging Face account
-- Access to provided notebooks
 
-## Outstanding TODOs
-- **TODO:** Find optimal LLM on Hugging Face that:
-  - Works well on Google Colab
-  - Provides good performance
-  - Doesn't exceed compute limits
-- **TODO:** Explore alternatives:
-  - ProxAI integration
-  - OpenRouter API
-  - VLLM deployment
-- **TODO KATIE:** Investigate Deep Fabric Inference API keys
 
-## Backup Resources
-- Alternative model hosting platforms
-- Local deployment options for advanced students
-- Extended project ideas for fast finishers
+

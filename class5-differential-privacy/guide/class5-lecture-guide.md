@@ -14,7 +14,6 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 ### Session 1: De-identification Attacks (30 minutes)
 **Understanding Privacy Vulnerabilities**
 - **Exercise:** [De-identification Attack Lab](https://replit.com/@allenol/De-identification)
-- **Solutions:** [De-identification Solutions](https://replit.com/@allenol/De-Identification-Solutions)
 - Demonstrate how seemingly anonymous data can be re-identified
 - Real-world examples of privacy breaches
 
@@ -39,8 +38,6 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 - Evaluation of privacy-preserving algorithms
 
 ### Discussion and Extensions (10 minutes)
-- **TODO:** Discuss potential extensions to curriculum
-- Explore advanced topics for interested students
 - Connect to current privacy regulations (GDPR, CCPA)
 
 ## Learning Objectives
@@ -58,8 +55,4 @@ By the end of this class, students should be able to:
 - **Epsilon (ε):** Privacy budget parameter
 - **Noise Addition:** Core mechanism for achieving differential privacy
 
-## Materials Needed
-- Computer with internet access
-- Replit account
-- Python environment with numpy/pandas
-- Access to tutorial materials
+

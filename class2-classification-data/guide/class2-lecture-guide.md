@@ -46,7 +46,6 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 **TODO: Add Logistic Regression for Classification**
 - Classification vs regression
 - Probability interpretation
-- **TODO:** Create hands-on logistic regression exercise (Replit)
 
 ### Session 6: Decision Trees (15 minutes)
 **Lab: Decision Trees**
@@ -58,7 +57,6 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 **Freeform Decision Tree Exercise**
 - **Dataset:** [COMPAS Recidivism Risk Score Data](https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis)
 - **Exercise:** [Decision Trees Lab](https://replit.com/@allenol/Decision-Trees)
-- **TODO:** Create solutions including logistic regression implementation
 
 ## Learning Objectives
 By the end of this class, students should be able to:
@@ -69,8 +67,3 @@ By the end of this class, students should be able to:
 - Build and interpret decision trees
 - Work with real-world datasets
 
-## Materials Needed
-- Computer with internet access
-- Jupyter notebook or Google Colab
-- Access to COMPAS dataset
-- Replit account
