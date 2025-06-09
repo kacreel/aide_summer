@@ -30,7 +30,6 @@ Introduction to the capstone project with hands-on model deployment using Huggin
 ### Session 3: Model Deployment and Inference (30 minutes)
 **Hands-on Implementation**
 - **Main Notebook:** [Model Deployment Lab](https://colab.research.google.com/drive/1m3lL9cBu88xp-ctTn8lWvWfHtKG5j7XY?usp=sharing)
-- **Solutions:** [Deployment Solutions](https://colab.research.google.com/drive/1piwYEZaa3spvogYOTJ9hn8SP0Zs_8e8Z?usp=sharing)
 - Using Hugging Face Inference API
 - Model selection and setup
 - Testing model responses
