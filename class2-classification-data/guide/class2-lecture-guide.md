@@ -17,7 +17,7 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 - Overview of data science workflow
 
 ### Session 1: DataFrame Operations (15 minutes)
-**[Practice Lab: Selecting Data in a DataFrame](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
+**[Practice Lab: Selecting Data in a DataFrame](https://colab.research.google.com/drive/1X9Yoz0LAFwkLuGqaHhT570j3bHRBpNCx?usp=sharing)**
 [Coursera Link](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/module/4) 
 - Data selection techniques
 - Indexing and filtering
