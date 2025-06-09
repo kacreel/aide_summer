@@ -32,24 +32,24 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 ### Break (5 minutes)
 
 ### Session 3: Simple Linear Regression (15 minutes)
-**[Lab: Simple Linear Regression](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
+**[Lab: Simple Linear Regression](https://colab.research.google.com/drive/1DyUYnUHEo4GrOdzrermmuaVh_BfqSW4Q?usp=sharing)**
 - Understanding linear relationships
 - Implementing regression models
 - Evaluating model performance
 
 ### Session 4: Multiple Linear Regression (15 minutes)
-**[Lab: Multiple Linear Regression](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
+**[Lab: Multiple Linear Regression](https://colab.research.google.com/drive/1M_ZJaXtoJD_GgQCufVeszZubjgACICDy?usp=sharing)**
 - Working with multiple features
 - Feature selection
 - Model interpretation
 
 ### Session 5: Logistic Regression (15 minutes)
-**[Lab: Logistic Regression for Classification](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
+**[Lab: Logistic Regression for Classification](https://colab.research.google.com/drive/1h00HlgdjuUvxPDsBgi8yCvZ8ee1if3Bl?usp=sharing)**
 - Classification vs regression
 - Probability interpretation
 
 ### Session 6: Decision Trees (15 minutes)
-**[Lab: Decision Trees](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
+**[Lab: Decision Trees](https://colab.research.google.com/drive/1EZkvEOt_2xDvOqciJ62Rpx5Zss0KFKHI?usp=sharing)**
 - Tree-based algorithms
 - Feature importance
 - Overfitting considerations
