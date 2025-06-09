@@ -32,7 +32,7 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 ### Break (5 minutes)
 
 ### Session 3: Simple Linear Regression (15 minutes)
-**[Lab: Simple Linear Regression](https://colab.research.google.com/drive/1DyUYnUHEo4GrOdzrermmuaVh_BfqSW4Q?usp=sharing)**
+**[Lab: Simple Linear Regression](https://colab.research.google.com/drive/1DyUYnUHEo4GrOdzrermmuaVh_BfqSW4Q?usp=sharing)** ([Coursera Link](https://www.coursera.org/learn/machine-learning-with-python/home/module/2))
 - Understanding linear relationships
 - Implementing regression models
 - Evaluating model performance
