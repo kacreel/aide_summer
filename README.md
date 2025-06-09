@@ -74,9 +74,33 @@ This repository contains materials for the AIDE Summer Machine Learning and Pyth
 ## Folder Structure
 
 Each class folder contains:
-- `guide/` - Instructor guides and lesson plans
-- `exercises/` - Hands-on coding exercises and labs
-- `readings/` - Pre-class reading materials and resources
+- `class[#]-lecture-guide.md` – Instructor guides and lesson plans
+- `exercises/` – Hands-on coding exercises and labs (Jupyter `.ipynb` and `.py` files)
+
+### Example
+```
+class1-intro-programming-python/
+  class1-lecture-guide.md
+  exercises/
+    1_variables.ipynb
+    1_variables.py
+    2_strings.ipynb
+    2_strings.py
+    3_data.ipynb
+    3_data.txt
+    3_dict-lists-sets.ipynb
+    3_dict-lists-sets.py
+class2-classification-data/
+  class2-lecture-guide.md
+  exercises/
+    Decision-tree-classifier-drug-pred.ipynb
+    Loading Data with Pandas.ipynb
+    Logistic-Regression.ipynb
+    Mulitple-Linear-Regression.ipynb
+    Selecting Data in a Dataframe.ipynb
+    Simple-Linear-Regression.ipynb
+...
+```
 
 ## Getting Started
 
@@ -89,9 +113,9 @@ Each class folder contains:
    - `class5-differential-privacy/` - Class 5: Differential Privacy
    - `class6-regression-llm/` - Class 6: Regression Trees and LLM Concepts
    - `class7-capstone/` - Class 7: Fitting Your Own Models and Capstone Introduction
-3. Review pre-class materials in the `readings/` folder
-4. Follow along with exercises in the `exercises/` folder
-5. Refer to instructor guides as needed
+3. Review pre-class materials as listed in each class lecture guide
+4. Follow along with exercises in the `exercises/` folder (`.ipynb` for Jupyter/Colab, `.py` for script-based work)
+5. Refer to instructor guides (`class[#]-lecture-guide.md`) as needed
 
 ## Resources
 
