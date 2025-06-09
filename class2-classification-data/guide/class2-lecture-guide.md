@@ -18,7 +18,7 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 
 ### Session 1: DataFrame Operations (15 minutes)
 **[Practice Lab: Selecting Data in a DataFrame](https://colab.research.google.com/drive/1X9Yoz0LAFwkLuGqaHhT570j3bHRBpNCx?usp=sharing)**
-[Coursera Link](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/module/4) 
+([Coursera Link](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/module/4))
 - Data selection techniques
 - Indexing and filtering
 - Basic data exploration
@@ -38,13 +38,13 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 - Evaluating model performance
 
 ### Session 4: Multiple Linear Regression (15 minutes)
-**[Lab: Multiple Linear Regression](https://colab.research.google.com/drive/1M_ZJaXtoJD_GgQCufVeszZubjgACICDy?usp=sharing)**
+**[Lab: Multiple Linear Regression](https://colab.research.google.com/drive/1M_ZJaXtoJD_GgQCufVeszZubjgACICDy?usp=sharing)** ([Coursera Link](https://www.coursera.org/learn/machine-learning-with-python/home/module/2))
 - Working with multiple features
 - Feature selection
 - Model interpretation
 
 ### Session 5: Logistic Regression (15 minutes)
-**[Lab: Logistic Regression for Classification](https://colab.research.google.com/drive/1h00HlgdjuUvxPDsBgi8yCvZ8ee1if3Bl?usp=sharing)**
+**[Lab: Logistic Regression for Classification](https://colab.research.google.com/drive/1h00HlgdjuUvxPDsBgi8yCvZ8ee1if3Bl?usp=sharing)** ([Coursera Link](https://www.coursera.org/learn/machine-learning-with-python/home/module/2))
 - Classification vs regression
 - Probability interpretation
 
