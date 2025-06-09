@@ -5,7 +5,7 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 
 ## Pre-Class Learning (1 hr 30 minutes)
 ### Required Materials:
-1. **Coursera Python for Data Science, AI and Development** (1 hr 30 minutes)
+1. **[Coursera Python for Data Science, AI and Development](https://www.coursera.org/learn/python-for-applied-data-science-ai#syllabus)** (1 hr 30 minutes)
    - Complete Module 4 section: Pandas and Numpy in Python
    - Optional: Reading and Writing Files with Open and Numpy in Python
    - **Hands-on Labs:** One Dimensional Numpy, Two Dimensional Numpy
@@ -18,6 +18,7 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 
 ### Session 1: DataFrame Operations (15 minutes)
 **[Practice Lab: Selecting Data in a DataFrame](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
+[Coursera Link](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/module/4) 
 - Data selection techniques
 - Indexing and filtering
 - Basic data exploration
