@@ -17,13 +17,13 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 - Overview of data science workflow
 
 ### Session 1: DataFrame Operations (15 minutes)
-**Practice Lab: Selecting Data in a DataFrame**
+**[Practice Lab: Selecting Data in a DataFrame](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
 - Data selection techniques
 - Indexing and filtering
 - Basic data exploration
 
 ### Session 2: Data Loading (15 minutes)
-**Hands-on Lab: Loading Data with Pandas**
+**[Hands-on Lab: Loading Data with Pandas](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
 - Reading CSV files
 - Data inspection methods
 - Handling missing data
@@ -31,24 +31,24 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 ### Break (5 minutes)
 
 ### Session 3: Simple Linear Regression (15 minutes)
-**Lab: Simple Linear Regression**
+**[Lab: Simple Linear Regression](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
 - Understanding linear relationships
 - Implementing regression models
 - Evaluating model performance
 
 ### Session 4: Multiple Linear Regression (15 minutes)
-**Lab: Multiple Linear Regression**
+**[Lab: Multiple Linear Regression](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
 - Working with multiple features
 - Feature selection
 - Model interpretation
 
 ### Session 5: Logistic Regression (15 minutes)
-**TODO: Add Logistic Regression for Classification**
+**[Lab: Logistic Regression for Classification](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
 - Classification vs regression
 - Probability interpretation
 
 ### Session 6: Decision Trees (15 minutes)
-**Lab: Decision Trees**
+**[Lab: Decision Trees](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
 - Tree-based algorithms
 - Feature importance
 - Overfitting considerations
