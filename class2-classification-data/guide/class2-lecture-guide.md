@@ -49,7 +49,7 @@ Introduction to data science concepts, pandas, numpy, and machine learning algor
 - Probability interpretation
 
 ### Session 6: Decision Trees (15 minutes)
-**[Lab: Decision Trees](https://colab.research.google.com/drive/1EZkvEOt_2xDvOqciJ62Rpx5Zss0KFKHI?usp=sharing)**([Coursera Link](https://www.coursera.org/learn/machine-learning-with-python/home/module/3))
+**[Lab: Decision Trees](https://colab.research.google.com/drive/1EZkvEOt_2xDvOqciJ62Rpx5Zss0KFKHI?usp=sharing)**([Coursera Link]([https://www.coursera.org/learn/machine-learning-with-python/home/module/3)](https://www.coursera.org/learn/machine-learning-with-python/ungradedLti/eaDdj/lab-decision-trees))
 - Tree-based algorithms
 - Feature importance
 - Overfitting considerations
