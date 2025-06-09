@@ -5,16 +5,16 @@ Introduction to neural networks, transformers, and large language model concepts
 
 ## Pre-Class Learning (2 hr 45 minutes)
 ### Required Materials:
-1. **Coursera Machine Learning with Python** (45 minutes)
+1. **[Coursera Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ibm-data-science)** (45 minutes)
    - Complete Module 3 including hands-on exercises
    - Optional: Regression Trees section
 
-2. **3Blue1Brown Neural Networks Series** (1 hr 10 minutes)
+2. **[3Blue1Brown Neural Networks Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** (1 hr 10 minutes)
    - Visual introduction to neural network concepts
    - Mathematical intuition behind neural networks
 
 3. **Blog Post** (40 minutes)
-   - "What is ChatGPT Doing…And Why Does it Work?"
+   - "[What is ChatGPT Doing…And Why Does it Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)"
    - Understanding transformer architecture and LLM behavior
 
 ## Class Schedule
@@ -32,7 +32,7 @@ Introduction to neural networks, transformers, and large language model concepts
 
 ### Session 2: Simple Neural Network Math by Hand (30 minutes)
 **Manual Calculations**
-- **Material:** "NeuralNet Worksheet.pdf"
+- **Material:** "NeuralNet Worksheet.pdf" - [Post](https://towardsdatascience.com/introduction-to-math-behind-neural-networks-e8b60dbbdeba)
 - Step-by-step forward propagation
 - Weight updates and backpropagation basics
 - Understanding activation functions
@@ -74,6 +74,6 @@ By the end of this class, students should be able to:
 - **Self-Attention:** Mechanism for sequence understanding
 
 
-## Backup Resources
+## Resources
 - [Northeastern SEED Grant Projects](https://idi.provost.northeastern.edu/seed-grant-projects/)
 - [Byron Wallace Research](https://www.byronwallace.com/)
