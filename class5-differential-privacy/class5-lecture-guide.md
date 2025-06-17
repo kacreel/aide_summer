@@ -1,58 +1,81 @@
 # Class 5: Differential Privacy - Lecture Guide
 
+## 📋 Table of Contents
+- [Class Schedule](#class-schedule)
+- [Required Materials](#required-materials)
+- [Learning Objectives & Key Concepts](#learning-objectives--key-concepts)
+- [Quick Links](#quick-links)
+
 ## Overview
 Introduction to differential privacy concepts, de-identification attacks, and privacy-preserving machine learning techniques.
 
-## Pre-Class Reading
-### Required Materials:
-1. **Programming Differential Privacy Chapter 1**
-   - [Chapter 1: Programming DP](https://programming-dp.com/ch1.html)
-   - Focus on core concepts and motivation
-
 ## Class Schedule
 
-### Session 1: De-identification Attacks (30 minutes)
-**Understanding Privacy Vulnerabilities**
-- **Exercise:** [De-identification Attack Lab](https://replit.com/@allenol/De-identification)
-- Demonstrate how seemingly anonymous data can be re-identified
-- Real-world examples of privacy breaches
-
-### Session 2: Differential Privacy Fundamentals (25 minutes)
+### Session 1: Differential Privacy Fundamentals (20 minutes)
 **Core Concepts and Theory**
 - Definition of differential privacy
 - Epsilon and delta parameters
 - Privacy-utility trade-offs
 - Mathematical foundations (accessible level)
 
-### Session 3: Simple Differential Privacy Example (30 minutes)
-**Hands-on Implementation**
-- **Tutorial:** [Differential Privacy for Beginners](https://towardsdatascience.com/a-differential-privacy-example-for-beginners-ef3c23f69401)
-- Implement basic noise addition mechanisms
-- Compare results with and without privacy protection
-- Understand the impact of different privacy parameters
-
-### Session 4: Privacy-Preserving ML (20 minutes)
-**Applications in Machine Learning**
-- How differential privacy applies to ML models
-- Training with privacy guarantees
-- Evaluation of privacy-preserving algorithms
-
-### Discussion and Extensions (10 minutes)
-- Connect to current privacy regulations (GDPR, CCPA)
-
-## Learning Objectives
-By the end of this class, students should be able to:
-- Understand the limitations of traditional anonymization
-- Explain the concept of differential privacy
+### Session 2: Census Dataset Exercise (35 minutes)
+**De-identification Attacks and Basic DP**
+- **Exercise:** `Census/census_exercises.ipynb` | [📁 Local File](./Exercises/Census/census_exercises.ipynb) | [☁️ Google Drive](https://drive.google.com/file/d/1LAwMdqUF1VInrNTyoEFBJkud4OXjGm-g/view?usp=sharing)
+- **Tutorial:** `Census/census_tutorial.ipynb` | [📁 Local File](./Exercises/Census/census_tutorial.ipynb) | [☁️ Google Drive](https://drive.google.com/file/d/1GOsJuFIeJo1kZww_o7TVQGsCdFUgcTWZ/view?usp=sharing)
+- Based on [Programming DP Chapter 1](https://programming-dp.com/ch1.html)
+- Demonstrate re-identification attacks on census data
 - Implement basic differential privacy mechanisms
-- Recognize privacy vulnerabilities in data sharing
-- Apply privacy-preserving techniques to machine learning
+- Compare results with and without privacy protection
 
-## Key Concepts
-- **De-identification:** Removing obvious identifiers from data
-- **Re-identification:** Process of linking anonymous data back to individuals
-- **Differential Privacy:** Mathematical framework for privacy protection
-- **Epsilon (ε):** Privacy budget parameter
-- **Noise Addition:** Core mechanism for achieving differential privacy
+### Session 3: Sleep Dataset Exercise (30 minutes)
+**Practical Differential Privacy Implementation**
+- **Exercise:** `Sleep/differentialPrivacy_exercises.ipynb` | [📁 Local File](./Exercises/Sleep/differentialPrivacy_exercises.ipynb) | [☁️ Google Drive](https://drive.google.com/file/d/1pv6e6BVeG7fJ4teIMvmP46S064Sio7Q6/view?usp=sharing)
+- Based on [Differential Privacy for Beginners](https://towardsdatascience.com/a-differential-privacy-example-for-beginners-ef3c23f69401)
+- Hands-on noise addition mechanisms
+- Understand the impact of different privacy parameters
+- Privacy-preserving data analysis
+
+## Required Materials
+- **Python packages:** pandas, numpy, matplotlib, random
+- **Census Dataset:** `adult_with_pii.csv` - Census data with synthetic PII
+- **Sleep Dataset:** `hours_of_sleep.csv` - Sleep hours dataset
+- **Notebooks:** Exercise and tutorial notebooks (see links above)
+
+## 📂 Folder Structure
+```
+class5-differential-privacy/
+├── class5-lecture-guide.md
+└── Exercises/
+    ├── Census/
+    │   ├── adult_with_pii.csv
+    │   ├── census_exercises.ipynb
+    │   └── census_tutorial.ipynb
+    └── Sleep/
+        ├── hours_of_sleep.csv
+        └── differentialPrivacy_exercises.ipynb
+```
+
+
+## Learning Objectives & Key Concepts
+By the end of this class, students should be able to:
+- Understand **de-identification** limitations and **re-identification** attacks
+- Explain **differential privacy** as a mathematical framework for privacy protection
+- Implement basic differential privacy mechanisms using **noise addition**
+- Work with **epsilon (ε)** privacy budget parameters
+- Apply privacy-preserving techniques to machine learning datasets
+
+## 🔗 Quick Links
+
+### 📚 Exercise Files
+| Exercise | Local File | Google Drive |
+|----------|------------|--------------|
+| Census Tutorial | [📁 census_tutorial.ipynb](./Exercises/Census/census_tutorial.ipynb) | [☁️ Open in Drive](https://drive.google.com/file/d/1GOsJuFIeJo1kZww_o7TVQGsCdFUgcTWZ/view?usp=sharing) |
+| Census Exercises | [📁 census_exercises.ipynb](./Exercises/Census/census_exercises.ipynb) | [☁️ Open in Drive](https://drive.google.com/file/d/1LAwMdqUF1VInrNTyoEFBJkud4OXjGm-g/view?usp=sharing) |
+| Sleep Exercises | [📁 differentialPrivacy_exercises.ipynb](./Exercises/Sleep/differentialPrivacy_exercises.ipynb) | [☁️ Open in Drive](https://drive.google.com/file/d/1pv6e6BVeG7fJ4teIMvmP46S064Sio7Q6/view?usp=sharing) |
+
+### 📖 Reference Materials
+- [Programming Differential Privacy - Chapter 1](https://programming-dp.com/ch1.html)
+- [Differential Privacy for Beginners](https://towardsdatascience.com/a-differential-privacy-example-for-beginners-ef3c23f69401)
+
 
 
