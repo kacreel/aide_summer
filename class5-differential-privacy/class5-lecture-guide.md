@@ -12,16 +12,18 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 
 ### Session 1: Differential Privacy Fundamentals (20 minutes)
 **Core Concepts and Theory**
-- Definition of differential privacy
-- Epsilon and delta parameters
-- Privacy-utility trade-offs
-- Mathematical foundations (accessible level)
+- **Tutorial:** `Census/census_tutorial.ipynb` | [📁 Local File](./Exercises/Census/census_tutorial.ipynb) | [☁️ Google Colab](https://colab.research.google.com/drive/1h0ZOYBOzeEAWhKg2nvDtgRFO9CZr4ddy?usp=sharing)
+- Based on [Programming DP Chapter 1](https://programming-dp.com/ch1.html)
+- De-identification
+- Re-identification
+- Identifying information / personally identifying information
+- Linkage attacks
+- Aggregation and aggregate statistics
+- Differencing attacks
 
 ### Session 2: Census Dataset Exercise (35 minutes)
 **De-identification Attacks and Basic DP**
 - **Exercise:** `Census/census_exercises.ipynb` | [📁 Local File](./Exercises/Census/census_exercises.ipynb) | [☁️ Google Colab](https://colab.research.google.com/drive/15e682dGaOVC_uwSvSJaqfMR9kOFQFBys?usp=sharing)
-- **Tutorial:** `Census/census_tutorial.ipynb` | [📁 Local File](./Exercises/Census/census_tutorial.ipynb) | [☁️ Google Colab](https://colab.research.google.com/drive/1h0ZOYBOzeEAWhKg2nvDtgRFO9CZr4ddy?usp=sharing)
-- Based on [Programming DP Chapter 1](https://programming-dp.com/ch1.html)
 - Demonstrate re-identification attacks on census data
 - Implement basic differential privacy mechanisms
 - Compare results with and without privacy protection
