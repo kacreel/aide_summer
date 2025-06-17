@@ -35,26 +35,6 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 - Understand the impact of different privacy parameters
 - Privacy-preserving data analysis
 
-## Required Materials
-- **Python packages:** pandas, numpy, matplotlib, random
-- **Census Dataset:** `adult_with_pii.csv` - Census data with synthetic PII
-- **Sleep Dataset:** `hours_of_sleep.csv` - Sleep hours dataset
-- **Notebooks:** Exercise and tutorial notebooks (see links above)
-
-## 📂 Folder Structure
-```
-class5-differential-privacy/
-├── class5-lecture-guide.md
-└── Exercises/
-    ├── Census/
-    │   ├── adult_with_pii.csv
-    │   ├── census_exercises.ipynb
-    │   └── census_tutorial.ipynb
-    └── Sleep/
-        ├── hours_of_sleep.csv
-        └── differentialPrivacy_exercises.ipynb
-```
-
 
 ## Learning Objectives & Key Concepts
 By the end of this class, students should be able to:
