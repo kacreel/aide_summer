@@ -4,6 +4,7 @@
 - [Class Schedule](#class-schedule)
 - [Learning Objectives & Key Concepts](#learning-objectives--key-concepts)
 - [Quick Links](#quick-links)
+- [Quick Reference](#quick-reference)
 
 ## Overview
 Introduction to differential privacy concepts, de-identification attacks, and privacy-preserving machine learning techniques.
@@ -39,11 +40,30 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 
 ## Learning Objectives & Key Concepts
 By the end of this class, students should be able to:
-- Understand **de-identification** limitations and **re-identification** attacks
-- Explain **differential privacy** as a mathematical framework for privacy protection
-- Implement basic differential privacy mechanisms using **noise addition**
-- Work with **epsilon (ε)** privacy budget parameters
-- Apply privacy-preserving techniques to machine learning datasets
+
+### 🔍 Privacy Attack Techniques
+- Perform **linkage attacks** using auxiliary information to re-identify individuals
+- Execute **differencing attacks** on aggregate statistics
+- Demonstrate how **aggregation** can still leak individual information
+- Understand why traditional **de-identification** methods fail
+
+### 🛡️ Differential Privacy Fundamentals  
+- Define **differential privacy** and its mathematical framework
+- Explain the **privacy-utility trade-off** in data analysis
+- Work with **epsilon (ε)** and **delta (δ)** privacy parameters
+- Implement **noise addition mechanisms** (Laplacian noise)
+
+### 🔧 Practical Implementation
+- Use **PyDP** library for differential privacy algorithms
+- Apply **BoundedSum**, **BoundedMean**, **Count**, and **Max** functions
+- Implement the **randomized response** technique for sensitive surveys
+- Compare privacy-preserving vs. non-private analysis results
+
+### 📊 Real-world Applications
+- Understand **personally identifiable information (PII)** vulnerabilities  
+- Recognize the limitations of **anonymization** and **pseudonymization**
+- Apply differential privacy to **survey data** and **statistical queries**
+- Connect privacy techniques to **regulatory compliance** (GDPR, CCPA)
 
 ## 🔗 Quick Links
 
@@ -53,6 +73,7 @@ By the end of this class, students should be able to:
 | Census Tutorial | [📁 census_tutorial.ipynb](./Exercises/Census/census_tutorial.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1h0ZOYBOzeEAWhKg2nvDtgRFO9CZr4ddy?usp=sharing) |
 | Census Exercises | [📁 census_exercises.ipynb](./Exercises/Census/census_exercises.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/15e682dGaOVC_uwSvSJaqfMR9kOFQFBys?usp=sharing) |
 | Sleep Exercises | [📁 differentialPrivacy_exercises.ipynb](./Exercises/Sleep/differentialPrivacy_exercises.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1xQI3AvuB6UopswqcC0HKiFfHrV7GavzB?usp=sharing) |
+
 
 
 
