@@ -2,7 +2,6 @@
 
 ## 📋 Table of Contents
 - [Class Schedule](#class-schedule)
-- [Required Materials](#required-materials)
 - [Learning Objectives & Key Concepts](#learning-objectives--key-concepts)
 - [Quick Links](#quick-links)
 
@@ -20,8 +19,8 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 
 ### Session 2: Census Dataset Exercise (35 minutes)
 **De-identification Attacks and Basic DP**
-- **Exercise:** `Census/census_exercises.ipynb` | [📁 Local File](./Exercises/Census/census_exercises.ipynb) | [☁️ Google Drive](https://drive.google.com/file/d/1LAwMdqUF1VInrNTyoEFBJkud4OXjGm-g/view?usp=sharing)
-- **Tutorial:** `Census/census_tutorial.ipynb` | [📁 Local File](./Exercises/Census/census_tutorial.ipynb) | [☁️ Google Drive](https://drive.google.com/file/d/1GOsJuFIeJo1kZww_o7TVQGsCdFUgcTWZ/view?usp=sharing)
+- **Exercise:** `Census/census_exercises.ipynb` | [📁 Local File](./Exercises/Census/census_exercises.ipynb) | [☁️ Google Colab](https://colab.research.google.com/drive/15e682dGaOVC_uwSvSJaqfMR9kOFQFBys?usp=sharing)
+- **Tutorial:** `Census/census_tutorial.ipynb` | [📁 Local File](./Exercises/Census/census_tutorial.ipynb) | [☁️ Google Colab](https://colab.research.google.com/drive/1h0ZOYBOzeEAWhKg2nvDtgRFO9CZr4ddy?usp=sharing)
 - Based on [Programming DP Chapter 1](https://programming-dp.com/ch1.html)
 - Demonstrate re-identification attacks on census data
 - Implement basic differential privacy mechanisms
@@ -29,7 +28,7 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 
 ### Session 3: Sleep Dataset Exercise (30 minutes)
 **Practical Differential Privacy Implementation**
-- **Exercise:** `Sleep/differentialPrivacy_exercises.ipynb` | [📁 Local File](./Exercises/Sleep/differentialPrivacy_exercises.ipynb) | [☁️ Google Drive](https://drive.google.com/file/d/1pv6e6BVeG7fJ4teIMvmP46S064Sio7Q6/view?usp=sharing)
+- **Exercise:** `Sleep/differentialPrivacy_exercises.ipynb` | [📁 Local File](./Exercises/Sleep/differentialPrivacy_exercises.ipynb) | [☁️ Google Colab](https://colab.research.google.com/drive/1xQI3AvuB6UopswqcC0HKiFfHrV7GavzB?usp=sharing)
 - Based on [Differential Privacy for Beginners](https://towardsdatascience.com/a-differential-privacy-example-for-beginners-ef3c23f69401)
 - Hands-on noise addition mechanisms
 - Understand the impact of different privacy parameters
@@ -47,15 +46,14 @@ By the end of this class, students should be able to:
 ## 🔗 Quick Links
 
 ### 📚 Exercise Files
-| Exercise | Local File | Google Drive |
+| Exercise | Local File | Google Colab |
 |----------|------------|--------------|
-| Census Tutorial | [📁 census_tutorial.ipynb](./Exercises/Census/census_tutorial.ipynb) | [☁️ Open in Drive](https://drive.google.com/file/d/1GOsJuFIeJo1kZww_o7TVQGsCdFUgcTWZ/view?usp=sharing) |
-| Census Exercises | [📁 census_exercises.ipynb](./Exercises/Census/census_exercises.ipynb) | [☁️ Open in Drive](https://drive.google.com/file/d/1LAwMdqUF1VInrNTyoEFBJkud4OXjGm-g/view?usp=sharing) |
-| Sleep Exercises | [📁 differentialPrivacy_exercises.ipynb](./Exercises/Sleep/differentialPrivacy_exercises.ipynb) | [☁️ Open in Drive](https://drive.google.com/file/d/1pv6e6BVeG7fJ4teIMvmP46S064Sio7Q6/view?usp=sharing) |
+| Census Tutorial | [📁 census_tutorial.ipynb](./Exercises/Census/census_tutorial.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1h0ZOYBOzeEAWhKg2nvDtgRFO9CZr4ddy?usp=sharing) |
+| Census Exercises | [📁 census_exercises.ipynb](./Exercises/Census/census_exercises.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/15e682dGaOVC_uwSvSJaqfMR9kOFQFBys?usp=sharing) |
+| Sleep Exercises | [📁 differentialPrivacy_exercises.ipynb](./Exercises/Sleep/differentialPrivacy_exercises.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1xQI3AvuB6UopswqcC0HKiFfHrV7GavzB?usp=sharing) |
 
-### 📖 Reference Materials
-- [Programming Differential Privacy - Chapter 1](https://programming-dp.com/ch1.html)
-- [Differential Privacy for Beginners](https://towardsdatascience.com/a-differential-privacy-example-for-beginners-ef3c23f69401)
+
+
 
 
 
