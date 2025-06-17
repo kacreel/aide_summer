@@ -10,7 +10,7 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 
 ## Class Schedule
 
-### Session 1: Differential Privacy Fundamentals (20 minutes)
+### Session 1: Differential Privacy Fundamentals (30 minutes)
 **Core Concepts and Theory**
 - **Tutorial:** `Census/census_tutorial.ipynb` | [📁 Local File](./Exercises/Census/census_tutorial.ipynb) | [☁️ Google Colab](https://colab.research.google.com/drive/1h0ZOYBOzeEAWhKg2nvDtgRFO9CZr4ddy?usp=sharing)
 - Based on [Programming DP Chapter 1](https://programming-dp.com/ch1.html)
@@ -21,7 +21,7 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 - Aggregation and aggregate statistics
 - Differencing attacks
 
-### Session 2: Census Dataset Exercise (35 minutes)
+### Session 2: Census Dataset Exercise (30 minutes)
 **De-identification Attacks and Basic DP**
 - **Exercise:** `Census/census_exercises.ipynb` | [📁 Local File](./Exercises/Census/census_exercises.ipynb) | [☁️ Google Colab](https://colab.research.google.com/drive/15e682dGaOVC_uwSvSJaqfMR9kOFQFBys?usp=sharing)
 - Demonstrate re-identification attacks on census data
