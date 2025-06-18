@@ -92,4 +92,4 @@ By the end of this class, students will be able to:
 
 ## Navigation
 **Previous Class:** [← Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)  
-**Next Class:** [← Class 7 - Capstone Project](../class7-capstone/class7-lecture-guide.md)
+**Next Class:** [→ Class 7 - Capstone Project](../class7-capstone/class7-lecture-guide.md)
