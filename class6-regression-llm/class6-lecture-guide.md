@@ -2,17 +2,25 @@
 
 ## Table of Contents
 1. [Navigation](#navigation)
-2. [Class Schedule](#class-schedule)
-3. [Learning Objectives](#learning-objectives)
-4. [Key Concepts](#key-concepts)
-5. [Quick Links](#quick-links)
-6. [Pre-Class Learning](#pre-class-learning)
+2. [Pre-Class Learning](#pre-class-learning)
+3. [Class Schedule](#class-schedule)
+4. [Learning Objectives](#learning-objectives)
+5. [Key Concepts](#key-concepts)
+6. [Quick Links](#quick-links)
 
-## Navigation
-**Course:** AIDE Summer Machine Learning and Python Programming Bootcamp 2025  
-**Class:** 6 - Regression Trees and LLM Concepts  
-**Previous Class:** [Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)  
-**Next Class:** [Class 7 - Capstone Project](../class7-capstone/class7-lecture-guide.md)
+## Pre-Class Learning (2 hr 45 minutes)
+### Required Materials:
+1. **[Coursera Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ibm-data-science)** (45 minutes)
+   - Complete Module 3 including hands-on exercises
+   - Optional: Regression Trees section
+
+2. **[3Blue1Brown Neural Networks Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** (1 hr 10 minutes)
+   - Visual introduction to neural network concepts
+   - Mathematical intuition behind neural networks
+
+3. **Blog Post** (40 minutes)
+   - "[What is ChatGPT Doing…And Why Does it Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)"
+   - Understanding transformer architecture and LLM behavior
 
 ## Class Schedule
 
@@ -77,22 +85,12 @@ By the end of this class, students will be able to:
 | [Advanced Self-Attention](https://docs.google.com/document/d/1i1XEISzYFbydbixtxZfVpTn8Q0NPoP4lKlz6e8BWEhc/edit?usp=sharing) | Advanced attention concepts | Google Doc |
 | [Matrix Multiplication](https://www.mathsisfun.com/algebra/matrix-multiplying.html) | Mathematical prerequisite | Reference |
 
-## Pre-Class Learning (2 hr 45 minutes)
-### Required Materials:
-1. **[Coursera Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ibm-data-science)** (45 minutes)
-   - Complete Module 3 including hands-on exercises
-   - Optional: Regression Trees section
-
-2. **[3Blue1Brown Neural Networks Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** (1 hr 10 minutes)
-   - Visual introduction to neural network concepts
-   - Mathematical intuition behind neural networks
-
-3. **Blog Post** (40 minutes)
-   - "[What is ChatGPT Doing…And Why Does it Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)"
-   - Understanding transformer architecture and LLM behavior
-
 ### Optional Supplementary Resources:
 - [Advanced Attention Worksheet](https://drive.google.com/file/d/1HkrVexGObYxSLe13BOarCHp58b01Wn_Z/view?usp=sharing) - For advanced students
 - [Keys, Queries, and Values Explanation](https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms) - Conceptual understanding
 - [Northeastern SEED Grant Projects](https://idi.provost.northeastern.edu/seed-grant-projects/) - Research context
 - [Byron Wallace Research](https://www.byronwallace.com/) - Additional ML resources
+
+## Navigation
+**Previous Class:** [Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)  
+**Next Class:** [Class 7 - Capstone Project](../class7-capstone/class7-lecture-guide.md)

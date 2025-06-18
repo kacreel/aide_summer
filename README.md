@@ -110,18 +110,13 @@ Each class folder contains:
    - **Cloud:** Use Google Colab links provided in each lecture guide
 
 3. **Follow the sequence:**
+   - Each `class[#]-lecture-guide.md` contains detailed session plans
    - Complete pre-class materials (listed in each lecture guide)
-   - Attend live sessions
+   - Attend sessions
    - Work through exercises
    - Apply concepts in the capstone project
 
-### For Instructors:
-- Each `class[#]-lecture-guide.md` contains detailed session plans
-- All exercises include both student versions and solutions where applicable
-- Resources are organized with time estimates for effective class planning
-
 ## Technical Requirements
-
 - **Python 3.7+** with standard data science libraries (pandas, numpy, scikit-learn)
 - **Jupyter Lab/Notebook** for local development
 - **Google Account** for Colab access

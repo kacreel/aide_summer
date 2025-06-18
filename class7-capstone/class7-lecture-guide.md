@@ -1,18 +1,23 @@
 # Class 7: Fitting Your Own Models and Capstone Introduction - Lecture Guide
 
 ## Table of Contents
-1. [Navigation](#navigation)
+1. [Pre-Class Learning](#pre-class-learning)
 2. [Class Schedule](#class-schedule)
 3. [Learning Objectives](#learning-objectives)
 4. [Key Concepts](#key-concepts)
 5. [Quick Links](#quick-links)
-6. [Pre-Class Learning](#pre-class-learning)
 
-## Navigation
-**Course:** AIDE Summer Machine Learning and Python Programming Bootcamp 2025  
-**Class:** 7 - Capstone Project and Model Deployment  
-**Previous Class:** [Class 6 - Regression Trees and LLM Concepts](../class6-regression-llm/class6-lecture-guide.md)  
-**Final Class:** Course Completion
+## Pre-Class Learning (2 hr 30 minutes)
+### Required Materials:
+1. **Programming Homework** (2 hours)
+   - See "Programming HW Email.pdf" for details
+   - **Source of inspiration:** [ML Bias Fairness Repository](https://github.com/heyaudace/ml-bias-fairness/tree/master)
+
+### Preparation Tasks:
+- Review all previous class materials
+- Identify potential capstone project topics
+- Ensure Hugging Face account is ready
+- Prepare questions about project scope
 
 ## Class Schedule
 
@@ -81,23 +86,6 @@ By the end of this class, students will be able to:
 | [ML Bias Fairness Repository](https://github.com/heyaudace/ml-bias-fairness/tree/master) | Capstone project inspiration | GitHub Repository |
 | Programming HW Email.pdf | Detailed project requirements | Local File |
 
-## Pre-Class Learning (2 hr 30 minutes)
-### Required Materials:
-1. **Programming Homework** (2 hours)
-   - See "Programming HW Email.pdf" for details
-   - **Source of inspiration:** [ML Bias Fairness Repository](https://github.com/heyaudace/ml-bias-fairness/tree/master)
-
-### Preparation Tasks:
-- Review all previous class materials
-- Identify potential capstone project topics
-- Ensure Hugging Face account is ready
-- Prepare questions about project scope
-By the end of this class, students should be able to:
-- Set up and configure Hugging Face API access
-- Deploy models using Google Colab
-- Use Hugging Face Inference API for model predictions
-- Begin independent development of capstone projects
-- Troubleshoot common deployment issues
 
 ## Key Concepts
 - **Model Deployment:** Making ML models accessible for use
@@ -105,6 +93,8 @@ By the end of this class, students should be able to:
 - **Inference:** Running predictions on deployed models
 - **Capstone Project:** Independent application of course concepts
 
-
+## Navigation
+**Previous Class:** [Class 6 - Regression Trees and LLM Concepts](../class6-regression-llm/class6-lecture-guide.md)  
+**Final Class:** Course Completion
 
 

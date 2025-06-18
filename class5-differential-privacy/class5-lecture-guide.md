@@ -4,7 +4,6 @@
 - [Class Schedule](#class-schedule)
 - [Learning Objectives & Key Concepts](#learning-objectives--key-concepts)
 - [Quick Links](#quick-links)
-- [Quick Reference](#quick-reference)
 
 ## Overview
 Introduction to differential privacy concepts, de-identification attacks, and privacy-preserving machine learning techniques.
