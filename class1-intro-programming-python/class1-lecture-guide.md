@@ -64,7 +64,7 @@ By the end of this class, students will be able to:
 | Resource | Description | Format |
 |----------|-------------|---------|
 | [Python Fundamentals Complete](exercises/Python_Fundamentals_Complete.ipynb) | **Main comprehensive exercise** | Local Jupyter |
-| [Python Fundamentals - Colab](https://colab.research.google.com/) | **Main exercise in Google Colab** | Google Colab |
+| [Python Fundamentals - Colab](https://colab.research.google.com/drive/1eQ5MPOAVx4o7q-3dYhJmwQXd-b_yVDfO?usp=sharing) | **Main exercise in Google Colab** | Google Colab |
 | [Variables Practice](exercises/1_variables.ipynb) | Individual variables exercises | Local Jupyter |
 | [Strings Practice](exercises/2_strings.ipynb) | Individual string exercises | Local Jupyter |
 | [Data Structures Practice](exercises/3_dics_lists_sets.ipynb) | Individual data structure exercises | Local Jupyter |
