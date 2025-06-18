@@ -94,7 +94,7 @@ By the end of this class, students will be able to:
 - **Capstone Project:** Independent application of course concepts
 
 ## Navigation
-**Previous Class:** [Class 6 - Regression Trees and LLM Concepts](../class6-regression-llm/class6-lecture-guide.md)  
+**Previous Class:** [← Class 6 - Regression Trees and LLM Concepts](../class6-regression-llm/class6-lecture-guide.md)  
 **Final Class:** Course Completion
 
 

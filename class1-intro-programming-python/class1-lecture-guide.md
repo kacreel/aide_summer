@@ -11,7 +11,7 @@
 ## Navigation
 **Course:** AIDE Summer Machine Learning and Python Programming Bootcamp 2025  
 **Class:** 1 - Introduction to Programming and Python  
-**Next Class:** [Class 2 - Classification and Data](../class2-classification-data/class2-lecture-guide.md)
+**Next Class:** [← Class 2 - Classification and Data](../class2-classification-data/class2-lecture-guide.md)
 
 ## Pre-Class Learning (2 hr 20 minutes)
 ### Required Materials:

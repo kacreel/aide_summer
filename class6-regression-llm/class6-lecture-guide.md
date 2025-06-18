@@ -1,12 +1,11 @@
 # Class 6: Regression Trees and LLM Concepts - Lecture Guide
 
 ## Table of Contents
-1. [Navigation](#navigation)
-2. [Pre-Class Learning](#pre-class-learning)
-3. [Class Schedule](#class-schedule)
-4. [Learning Objectives](#learning-objectives)
-5. [Key Concepts](#key-concepts)
-6. [Quick Links](#quick-links)
+1. [Pre-Class Learning](#pre-class-learning)
+2. [Class Schedule](#class-schedule)
+3. [Learning Objectives](#learning-objectives)
+4. [Key Concepts](#key-concepts)
+5. [Quick Links](#quick-links)
 
 ## Pre-Class Learning (2 hr 45 minutes)
 ### Required Materials:
@@ -92,5 +91,5 @@ By the end of this class, students will be able to:
 - [Byron Wallace Research](https://www.byronwallace.com/) - Additional ML resources
 
 ## Navigation
-**Previous Class:** [Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)  
-**Next Class:** [Class 7 - Capstone Project](../class7-capstone/class7-lecture-guide.md)
+**Previous Class:** [← Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)  
+**Next Class:** [← Class 7 - Capstone Project](../class7-capstone/class7-lecture-guide.md)
