@@ -1,4 +1,4 @@
-# Class 7: Fitting Your Own Models and Capstone Introduction - Lecture Guide
+# Class 7: AI Ethics Analyzer and Capstone Introduction - Lecture Guide
 
 ## Table of Contents
 1. [Pre-Class Learning](#pre-class-learning)
@@ -7,84 +7,86 @@
 4. [Key Concepts](#key-concepts)
 5. [Quick Links](#quick-links)
 
-## Pre-Class Learning (2 hr 30 minutes)
+## Pre-Class Learning (45 minutes)
 ### Required Materials:
-1. **Programming Homework** (2 hours)
-   - See "Programming HW Email.pdf" for details
-   - **Source of inspiration:** [ML Bias Fairness Repository](https://github.com/heyaudace/ml-bias-fairness/tree/master)
+1. **Create Accounts** (15 min):
+   - [Hugging Face](https://huggingface.co/) - Get your API token
+   - Save your token somewhere safe - you'll need it!
 
-### Preparation Tasks:
-- Review all previous class materials
-- Identify potential capstone project topics
-- Ensure Hugging Face account is ready
-- Prepare questions about project scope
+2. **Watch** (15 min):
+   - [Hugging Face in 15 Minutes](https://www.youtube.com/watch?v=QEaBAZQCtwE)
+
+3. **Think About** (15 min):
+   - How might you want to use LLMs to analyze AI ethics?
 
 ## Class Schedule
 
-### Session 1: Capstone Project Introduction (20 minutes)
-**Project Setup and Overview**
-- Introduce capstone project requirements
-- Help students set up their notebooks for the project
-- Explain project timeline and expectations
-- Q&A about project scope and requirements
+### Session 1: Baby Steps with Hugging Face (30 minutes)
+**Introduction to Transformers**
+- Install required packages
+- Set up GPU/CPU environment
+- First text generation with GPT-2
+- Experimenting with prompts and parameters
 
-### Session 2: Hugging Face Setup (15 minutes)
-**Token Configuration**
-- Create Hugging Face account
-- Generate API tokens with proper permissions:
-  - Select "finegrained" access
-  - Check second box under Repositories
-  - Check all boxes under Inference
-- Test token functionality
+### Session 2: Building Blocks - Multiple AI Tasks (30 minutes)
+**Hands-on with Different Models**
+- Sentiment Analysis for ethical statements
+- Zero-Shot Classification for ethical concerns
+- Question Answering about AI ethics
+- Combining multiple models for comprehensive analysis
 
-### Session 3: Model Deployment and Inference (30 minutes)
-**Hands-on Implementation**
-- **Main Notebook:** [Model Deployment Lab](https://colab.research.google.com/drive/1m3lL9cBu88xp-ctTn8lWvWfHtKG5j7XY?usp=sharing)
-- Using Hugging Face Inference API
-- Model selection and setup
-- Testing model responses
 
-### Break (5 minutes)
+### Session 3: Create Your Ethics Analyzer (30 minutes)
+**Building the Core Tool**
+- Implement AIEthicsAnalyzer class
+- Add ethical dimensions analysis
+- Create risk scoring system
+- Test with real-world cases
 
-### Session 4: Capstone Working Time (45 minutes)
-**Individual Project Development**
-- Students work on their capstone projects
-- Individual guidance and troubleshooting
-- Peer collaboration and idea sharing
-- Technical support for implementation issues
+### Session 4: Interactive Interface (30 minutes)
+**Making It User-Friendly**
+- Create Gradio web interface
+- Add customization options
+- Implement bias detection
+- Generate ethical recommendations
 
-### Wrap-up (10 minutes)
-- Share progress and challenges
-- Plan for project completion
-- Final Q&A session
+### Wrap-up
+- Discuss RAG implementation possibilities
+- Plan for project extensions
 
 ## Learning Objectives
 By the end of this class, students will be able to:
-- **Project Management:** Plan and execute a machine learning capstone project
-- **Model Deployment:** Deploy and use pre-trained models via Hugging Face
-- **API Integration:** Integrate machine learning models into applications
-- **Problem Solving:** Apply course concepts to real-world problems
-- **Technical Communication:** Present and discuss their work effectively
+- **Model Integration:** Use multiple Hugging Face models together
+- **Ethical Analysis:** Apply AI to analyze ethical implications
+- **Tool Development:** Build a comprehensive AI analysis tool
+- **UI Creation:** Create user-friendly interfaces with Gradio
+- **Bias Detection:** Implement automated bias detection systems
 
 ## Key Concepts
 
 | Concept | Description | Application |
 |---------|-------------|-------------|
-| **Capstone Project** | Comprehensive final project | Demonstrating course skills and knowledge |
-| **Hugging Face Hub** | Model repository and deployment platform | Accessing pre-trained models and APIs |
-| **API Tokens** | Authentication for model access | Secure access to cloud-based ML services |
-| **Model Inference** | Using trained models for predictions | Applying models to new data |
-| **Project Planning** | Structured approach to problem-solving | Managing complexity in ML projects |
-| **Technical Documentation** | Clear project communication | Sharing methods and results |
+| **Text Generation** | Creating text with language models | Ethical analysis and recommendations |
+| **Sentiment Analysis** | Detecting emotional tone in text | Analyzing ethical implications |
+| **Zero-Shot Classification** | Categorizing without training | Identifying ethical concerns |
+| **Question Answering** | Extracting answers from context | Analyzing ethical documentation |
+| **Bias Detection** | Identifying potential biases | Ensuring fair AI systems |
+| **RAG** | Retrieval-Augmented Generation | Enhanced ethical analysis with sources |
 
 ## Quick Links
 
 | Resource | Description | Format |
 |----------|-------------|---------|
-| [Model Deployment Lab - Colab](https://colab.research.google.com/drive/1m3lL9cBu88xp-ctTn8lWvWfHtKG5j7XY?usp=sharing) | **Main hands-on exercise** | Google Colab |
-| [Hugging Face Platform](https://huggingface.co/) | Model repository and deployment | Web Platform |
-| [ML Bias Fairness Repository](https://github.com/heyaudace/ml-bias-fairness/tree/master) | Capstone project inspiration | GitHub Repository |
-| Programming HW Email.pdf | Detailed project requirements | Local File |
+| [Ethics Analyzer - Colab](https://colab.research.google.com/drive/1oiC_m_7VC4dElcx3MTT-TL9I2ENcGoVf?usp=sharing) | **Main class notebook** | Google Colab |
+| [Hugging Face](https://huggingface.co/) | Model repository and deployment | Web Platform |
+| [Gradio](https://gradio.app/) | UI creation for ML models | Python Library |
+| [Transformers Docs](https://huggingface.co/docs/transformers/) | Hugging Face documentation | Documentation |
+
+## Additional Resources
+- [Hugging Face Course](https://huggingface.co/course/chapter1/1)
+- [LangChain RAG Tutorial](https://python.langchain.com/docs/use_cases/question_answering/)
+- [Sentence Transformers](https://www.sbert.net/)
+- [ChromaDB Documentation](https://docs.trychroma.com/)
 
 
 ## Key Concepts
