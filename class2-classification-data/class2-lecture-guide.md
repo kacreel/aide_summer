@@ -1,71 +1,86 @@
-# Class 2: Classification and Working with Data in Python - Lecture Guide
+# Class 2: Classification and Data Analysis - Lecture Guide
+
+## 📋 Table of Contents
+- [Overview](#overview)
+- [Pre-Class Learning](#pre-class-learning)
+- [Class Schedule](#class-schedule)
+- [Learning Objectives](#learning-objectives)
+- [Quick Links](#quick-links)
 
 ## Overview
-Introduction to data science concepts, pandas, numpy, and machine learning algorithms including regression and classification.
+Introduction to data science concepts, pandas, numpy, and machine learning algorithms including regression and classification through hands-on exercises.
 
 ## Pre-Class Learning (1 hr 30 minutes)
 ### Required Materials:
-1. **[Coursera Python for Data Science, AI and Development](https://www.coursera.org/learn/python-for-applied-data-science-ai#syllabus)** (1 hr 30 minutes)
-   - Complete Module 4 section: Pandas and Numpy in Python
-   - Optional: Reading and Writing Files with Open and Numpy in Python
-   - **Hands-on Labs:** One Dimensional Numpy, Two Dimensional Numpy
+- **[Coursera Python for Data Science, AI and Development](https://www.coursera.org/learn/python-for-applied-data-science-ai#syllabus)** (1 hr 30 minutes)
+  - Complete Module 4: Pandas and Numpy in Python
+  - **Hands-on Labs:** One Dimensional Numpy, Two Dimensional Numpy
 
 ## Class Schedule
 
-### Intro (7 minutes)
-- Review pre-class materials
-- Overview of data science workflow
+### Session 1: Data Fundamentals (30 minutes)
+**Pandas and DataFrame Operations**
+- **Lab:** [Selecting Data in a DataFrame](https://colab.research.google.com/drive/1X9Yoz0LAFwkLuGqaHhT570j3bHRBpNCx?usp=sharing) | [📁 Local File](./exercises/Selecting Data in a Dataframe.ipynb)
+- **Lab:** [Loading Data with Pandas](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link) | [📁 Local File](./exercises/Loading Data with Pandas.ipynb)
+- Data selection, indexing, filtering, and CSV handling
 
-### Session 1: DataFrame Operations (15 minutes)
-**[Practice Lab: Selecting Data in a DataFrame](https://colab.research.google.com/drive/1X9Yoz0LAFwkLuGqaHhT570j3bHRBpNCx?usp=sharing)**
-([Coursera Link](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/module/4))
-- Data selection techniques
-- Indexing and filtering
-- Basic data exploration
+### Session 2: Linear Regression (30 minutes)
+**Understanding Relationships in Data**
+- **Lab:** [Simple Linear Regression](https://colab.research.google.com/drive/1DyUYnUHEo4GrOdzrermmuaVh_BfqSW4Q?usp=sharing) | [📁 Local File](./exercises/Simple-Linear-Regression.ipynb)
+- **Lab:** [Multiple Linear Regression](https://colab.research.google.com/drive/1M_ZJaXtoJD_GgQCufVeszZubjgACICDy?usp=sharing) | [📁 Local File](./exercises/Mulitple-Linear-Regression.ipynb)
+- Linear relationships, multiple features, and model evaluation
 
-### Session 2: Data Loading (15 minutes)
-**[Hands-on Lab: Loading Data with Pandas](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link)**
-- Reading CSV files
-- Data inspection methods
-- Handling missing data
+### Session 3: Classification Algorithms (30 minutes)
+**Making Predictions with Categories**
+- **Lab:** [Logistic Regression](https://colab.research.google.com/drive/1h00HlgdjuUvxPDsBgi8yCvZ8ee1if3Bl?usp=sharing) | [📁 Local File](./exercises/Logistic-Regression.ipynb)
+- **Lab:** [Decision Trees](https://colab.research.google.com/drive/1EZkvEOt_2xDvOqciJ62Rpx5Zss0KFKHI?usp=sharing) | [📁 Local File](./exercises/Decision-tree-classifier-drug-pred.ipynb)
+- Classification vs regression, probability interpretation, and tree-based algorithms
 
-### Break (5 minutes)
-
-### Session 3: Simple Linear Regression (15 minutes)
-**[Lab: Simple Linear Regression](https://colab.research.google.com/drive/1DyUYnUHEo4GrOdzrermmuaVh_BfqSW4Q?usp=sharing)** ([Coursera Link](https://www.coursera.org/learn/machine-learning-with-python/home/module/2))
-- Understanding linear relationships
-- Implementing regression models
-- Evaluating model performance
-
-### Session 4: Multiple Linear Regression (15 minutes)
-**[Lab: Multiple Linear Regression](https://colab.research.google.com/drive/1M_ZJaXtoJD_GgQCufVeszZubjgACICDy?usp=sharing)** ([Coursera Link](https://www.coursera.org/learn/machine-learning-with-python/home/module/2))
-- Working with multiple features
-- Feature selection
-- Model interpretation
-
-### Session 5: Logistic Regression (15 minutes)
-**[Lab: Logistic Regression for Classification](https://colab.research.google.com/drive/1h00HlgdjuUvxPDsBgi8yCvZ8ee1if3Bl?usp=sharing)** ([Coursera Link](https://www.coursera.org/learn/machine-learning-with-python/home/module/2))
-- Classification vs regression
-- Probability interpretation
-
-### Session 6: Decision Trees (15 minutes)
-**[Lab: Decision Trees](https://colab.research.google.com/drive/1EZkvEOt_2xDvOqciJ62Rpx5Zss0KFKHI?usp=sharing)**
- [Coursera Link](https://www.coursera.org/learn/machine-learning-with-python/ungradedLti/eaDdj/lab-decision-trees)
-- Tree-based algorithms
-- Feature importance
-- Overfitting considerations
-
-### Session 7: Advanced Decision Trees (20 minutes)
-**Freeform Decision Tree Exercise**
+### Session 4: Real-world Application (15 minutes)
+**Advanced Decision Trees Exercise**
 - **Dataset:** [COMPAS Recidivism Risk Score Data](https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis)
 - **Exercise:** [Decision Trees Lab](https://replit.com/@allenol/Decision-Trees)
+- Applied machine learning with real criminal justice data
 
 ## Learning Objectives
-By the end of this class, students should be able to:
-- Load and manipulate data using pandas
-- Perform data selection and filtering operations
-- Implement simple and multiple linear regression
-- Apply logistic regression for classification tasks
-- Build and interpret decision trees
-- Work with real-world datasets
+Students will learn to:
+- **Load and manipulate** data using pandas DataFrame operations
+- **Implement** simple and multiple linear regression models
+- **Apply** logistic regression for binary classification tasks
+- **Build and interpret** decision trees for predictive modeling
+- **Evaluate** model performance using appropriate metrics
+- **Work** with real-world datasets and understand data science workflows
+
+## Key Concepts
+
+| Concept | Description |
+|---------|-------------|
+| **Pandas DataFrames** | Primary data structure for data manipulation and analysis |
+| **Linear Regression** | Statistical method for modeling relationships between variables |
+| **Logistic Regression** | Classification algorithm for binary outcomes |
+| **Decision Trees** | Tree-based algorithm for both classification and regression |
+| **Feature Selection** | Process of choosing relevant variables for modeling |
+| **Model Evaluation** | Techniques for assessing model performance and accuracy |
+| **Data Preprocessing** | Cleaning and preparing data for machine learning |
+
+## 🔗 Quick Links
+
+### 📚 Exercise Files
+| Exercise | Description | Local File | Google Colab |
+|----------|-------------|------------|--------------|
+| Data Selection | DataFrame indexing and filtering | [📁 Selecting Data in a Dataframe.ipynb](./exercises/Selecting%20Data%20in%20a%20Dataframe.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1X9Yoz0LAFwkLuGqaHhT570j3bHRBpNCx?usp=sharing) |
+| Data Loading | Reading CSV files with pandas | [📁 Loading Data with Pandas.ipynb](./exercises/Loading%20Data%20with%20Pandas.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1yUUDz6D9LNXrJ1sQjJc7nIfzxvsZxSyJ?usp=share_link) |
+| Simple Regression | Single variable linear modeling | [📁 Simple-Linear-Regression.ipynb](./exercises/Simple-Linear-Regression.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1DyUYnUHEo4GrOdzrermmuaVh_BfqSW4Q?usp=sharing) |
+| Multiple Regression | Multi-variable linear modeling | [📁 Mulitple-Linear-Regression.ipynb](./exercises/Mulitple-Linear-Regression.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1M_ZJaXtoJD_GgQCufVeszZubjgACICDy?usp=sharing) |
+| Logistic Regression | Binary classification modeling | [📁 Logistic-Regression.ipynb](./exercises/Logistic-Regression.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1h00HlgdjuUvxPDsBgi8yCvZ8ee1if3Bl?usp=sharing) |
+| Decision Trees | Tree-based classification | [📁 Decision-tree-classifier-drug-pred.ipynb](./exercises/Decision-tree-classifier-drug-pred.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1EZkvEOt_2xDvOqciJ62Rpx5Zss0KFKHI?usp=sharing) |
+
+### 📖 External Resources
+- [COMPAS Dataset](https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis) - Real-world criminal justice data
+- [Decision Trees Lab](https://replit.com/@allenol/Decision-Trees) - Interactive coding environment
+
+### 🗂️ Navigation
+- [← Back to Main Course](../README.md)
+- [← Previous: Class 1 - Intro Programming](../class1-intro-programming-python/class1-lecture-guide.md)
+- [→ Next: Class 3 - ML Fairness](../class3-ml-fairness/class3-lecture-guide.md)
 

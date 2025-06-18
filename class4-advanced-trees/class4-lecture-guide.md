@@ -56,5 +56,16 @@ Students will learn to:
 | Student Exercises | Guided exercises with TODO sections | [📁 COMPAS_exercises.ipynb](./Exercises/COMPAS_exercises.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1dmQ9pB5rwUuoWN8Wu_Fi6qf2I67fb6Us?usp=sharing) |
 | Complete Solutions | Full implementations with explanations | [📁 COMPAS_solutions.ipynb](./Exercises/COMPAS_solutions.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1HCdkIKqo3KI1FBLyDAoHZPA2s84swrQu?usp=sharing) |
 
+### 📖 Key Libraries Used
+- **pandas**: Data manipulation and analysis
+- **scikit-learn**: Machine learning algorithms and metrics
+- **fairlearn**: Fairness assessment and mitigation
+- **matplotlib/seaborn**: Data visualization
+
+### 🗂️ Navigation
+- [← Back to Main Course](../README.md)
+- [← Previous: Class 3 - ML Fairness](../class3-ml-fairness/class3-lecture-guide.md)
+- [→ Next: Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)
+
 
 

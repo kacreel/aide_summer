@@ -74,6 +74,15 @@ By the end of this class, students should be able to:
 | Census Exercises | [📁 census_exercises.ipynb](./Exercises/Census/census_exercises.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/15e682dGaOVC_uwSvSJaqfMR9kOFQFBys?usp=sharing) |
 | Sleep Exercises | [📁 differentialPrivacy_exercises.ipynb](./Exercises/Sleep/differentialPrivacy_exercises.ipynb) | [☁️ Open in Colab](https://colab.research.google.com/drive/1xQI3AvuB6UopswqcC0HKiFfHrV7GavzB?usp=sharing) |
 
+### 📖 Reference Materials
+- [Programming Differential Privacy - Chapter 1](https://programming-dp.com/ch1.html)
+- [Differential Privacy for Beginners](https://towardsdatascience.com/a-differential-privacy-example-for-beginners-ef3c23f69401)
+
+### 🗂️ Navigation
+- [← Back to Main Course](../README.md)
+- [← Previous: Class 4 - Advanced Trees](../class4-advanced-trees/class4-lecture-guide.md)
+- [→ Next: Class 6 - Regression & LLM](../class6-regression-llm/class6-lecture-guide.md)
+
 
 
 

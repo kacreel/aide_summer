@@ -1,21 +1,18 @@
 # Class 6: Regression Trees and LLM Concepts - Lecture Guide
 
-## Overview
-Introduction to neural networks, transformers, and large language model concepts through hands-on mathematical exercises.
+## Table of Contents
+1. [Navigation](#navigation)
+2. [Class Schedule](#class-schedule)
+3. [Learning Objectives](#learning-objectives)
+4. [Key Concepts](#key-concepts)
+5. [Quick Links](#quick-links)
+6. [Pre-Class Learning](#pre-class-learning)
 
-## Pre-Class Learning (2 hr 45 minutes)
-### Required Materials:
-1. **[Coursera Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ibm-data-science)** (45 minutes)
-   - Complete Module 3 including hands-on exercises
-   - Optional: Regression Trees section
-
-2. **[3Blue1Brown Neural Networks Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** (1 hr 10 minutes)
-   - Visual introduction to neural network concepts
-   - Mathematical intuition behind neural networks
-
-3. **Blog Post** (40 minutes)
-   - "[What is ChatGPT Doing…And Why Does it Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)"
-   - Understanding transformer architecture and LLM behavior
+## Navigation
+**Course:** AIDE Summer Machine Learning and Python Programming Bootcamp 2025  
+**Class:** 6 - Regression Trees and LLM Concepts  
+**Previous Class:** [Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)  
+**Next Class:** [Class 7 - Capstone Project](../class7-capstone/class7-lecture-guide.md)
 
 ## Class Schedule
 
@@ -49,31 +46,53 @@ Introduction to neural networks, transformers, and large language model concepts
 ### Session 4: Advanced Attention (Bonus) (20 minutes)
 **For Math-Savvy Students**
 - **Advanced Tutorial:** [Deep Dive into Self-Attention by Hand](https://docs.google.com/document/d/1i1XEISzYFbydbixtxZfVpTn8Q0NPoP4lKlz6e8BWEhc/edit?usp=sharing)
-- **Worksheet:** [Advanced Attention Worksheet](https://drive.google.com/file/d/1HkrVexGObYxSLe13BOarCHp58b01Wn_Z/view?usp=sharing)
-- **Reference:** [Keys, Queries, and Values Explanation](https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms)
-- Detailed attention matrix calculations
-
-### Wrap-Up (10 minutes)
-- Summary of key concepts
-- Connection between perceptrons, neural networks, and transformers
-- Preview of next class applications
 
 ## Learning Objectives
-By the end of this class, students should be able to:
-- Calculate perceptron outputs manually
-- Understand basic neural network forward propagation
-- Perform matrix multiplication for attention mechanisms
-- Explain the concept of self-attention in transformers
-- Connect mathematical concepts to modern LLM architecture
+By the end of this class, students will be able to:
+- **Neural Network Fundamentals:** Understand perceptrons and basic neural network architecture
+- **Mathematical Foundation:** Perform forward propagation calculations by hand
+- **Transformer Architecture:** Grasp attention mechanisms and transformer concepts
+- **LLM Understanding:** Comprehend how large language models process information
+- **Mathematical Intuition:** Develop deeper understanding through manual calculations
 
 ## Key Concepts
-- **Perceptron:** Basic building block of neural networks
-- **Forward Propagation:** Information flow through neural networks
-- **Attention Mechanism:** Core component of transformer architecture
-- **Query, Key, Value:** Fundamental attention components
-- **Self-Attention:** Mechanism for sequence understanding
 
+| Concept | Description | Application |
+|---------|-------------|-------------|
+| **Perceptron** | Simplest neural network unit | Binary classification, foundation for neural networks |
+| **Forward Propagation** | Data flow through network layers | Prediction generation in neural networks |
+| **Activation Functions** | Non-linear transformations | Sigmoid, ReLU, enabling complex patterns |
+| **Attention Mechanism** | Focus on relevant input parts | Core of transformer architecture |
+| **Query, Key, Value** | Attention computation matrices | Information retrieval and weighting |
+| **Transformer Architecture** | Modern neural network design | Language models, BERT, GPT |
+| **Self-Attention** | Relating positions within sequence | Understanding context and relationships |
 
-## Resources
-- [Northeastern SEED Grant Projects](https://idi.provost.northeastern.edu/seed-grant-projects/)
-- [Byron Wallace Research](https://www.byronwallace.com/)
+## Quick Links
+
+| Resource | Description | Format |
+|----------|-------------|---------|
+| [W3Schools Perceptrons](https://www.w3schools.com/ai/ai_perceptrons.asp) | Basic perceptron introduction | Online Tutorial |
+| [Neural Network Math](https://towardsdatascience.com/introduction-to-math-behind-neural-networks-e8b60dbbdeba) | Mathematical foundations | Blog Post |
+| [Transformers by Hand](https://docs.google.com/document/d/12Y4gtQuzSpXj-pQLKJr6SrANs_oe9uVhBzjJ2mD0zjI/edit?usp=sharing) | Core attention mechanisms | Google Doc |
+| [Advanced Self-Attention](https://docs.google.com/document/d/1i1XEISzYFbydbixtxZfVpTn8Q0NPoP4lKlz6e8BWEhc/edit?usp=sharing) | Advanced attention concepts | Google Doc |
+| [Matrix Multiplication](https://www.mathsisfun.com/algebra/matrix-multiplying.html) | Mathematical prerequisite | Reference |
+
+## Pre-Class Learning (2 hr 45 minutes)
+### Required Materials:
+1. **[Coursera Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ibm-data-science)** (45 minutes)
+   - Complete Module 3 including hands-on exercises
+   - Optional: Regression Trees section
+
+2. **[3Blue1Brown Neural Networks Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** (1 hr 10 minutes)
+   - Visual introduction to neural network concepts
+   - Mathematical intuition behind neural networks
+
+3. **Blog Post** (40 minutes)
+   - "[What is ChatGPT Doing…And Why Does it Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)"
+   - Understanding transformer architecture and LLM behavior
+
+### Optional Supplementary Resources:
+- [Advanced Attention Worksheet](https://drive.google.com/file/d/1HkrVexGObYxSLe13BOarCHp58b01Wn_Z/view?usp=sharing) - For advanced students
+- [Keys, Queries, and Values Explanation](https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms) - Conceptual understanding
+- [Northeastern SEED Grant Projects](https://idi.provost.northeastern.edu/seed-grant-projects/) - Research context
+- [Byron Wallace Research](https://www.byronwallace.com/) - Additional ML resources
