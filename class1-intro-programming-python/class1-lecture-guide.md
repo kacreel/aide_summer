@@ -2,17 +2,27 @@
 
 ## Table of Contents
 1. [Navigation](#navigation)
-2. [Class Schedule](#class-schedule)
-3. [Learning Objectives](#learning-objectives)
-4. [Key Concepts](#key-concepts)
-5. [Quick Links](#quick-links)
-6. [Pre-Class Learning](#pre-class-learning)
+2. [Pre-Class Learning](#pre-class-learning)
+3. [Class Schedule](#class-schedule)
+4. [Learning Objectives](#learning-objectives)
+5. [Key Concepts](#key-concepts)
+6. [Quick Links](#quick-links)
 
 ## Navigation
 **Course:** AIDE Summer Machine Learning and Python Programming Bootcamp 2025  
 **Class:** 1 - Introduction to Programming and Python  
 **Next Class:** [Class 2 - Classification and Data](../class2-classification-data/class2-lecture-guide.md)
 
+## Pre-Class Learning (2 hr 20 minutes)
+### Required Materials:
+1. **Harvard CS50 Lecture 0** (1 hr 40 minutes)
+   - [Introduction to Computer Science](https://cs50.harvard.edu/x/2024/weeks/0/)
+   - Core programming concepts and computational thinking
+   
+2. **Coursera Python for Data Science, AI and Development** (40 minutes)
+   - Module 1: Python Basics
+   - Focus on syntax and basic operations
+  
 ## Class Schedule
 
 ### Opening (5 minutes)
@@ -20,7 +30,7 @@
 - Course overview and expectations
 - Setup verification (Python, Jupyter, Colab)
 
-### Session 1: Python Fundamentals Workshop (70 minutes)
+### Session 1: Python Fundamentals Workshop (75 minutes)
 **Comprehensive Hands-on Exercise**
 - **Main Exercise:** [Python Fundamentals Complete](exercises/Python_Fundamentals_Complete.ipynb)
 - **Topics Covered:**
@@ -31,12 +41,6 @@
   - File operations and data parsing
   - Mini-project: Contact management system
 
-### Break (10 minutes)
-
-### Wrap-up and Q&A (5 minutes)
-- Summary of key concepts learned
-- Preview of Class 2: Classification and Data
-- Assignment preview
 
 ## Learning Objectives
 By the end of this class, students will be able to:
@@ -70,16 +74,6 @@ By the end of this class, students will be able to:
 | [Data Structures Practice](exercises/3_dics_lists_sets.ipynb) | Individual data structure exercises | Local Jupyter |
 
 > **💡 Recommendation:** Start with the comprehensive Python_Fundamentals_Complete.ipynb notebook, which combines all concepts in a structured, explanatory format with a practical mini-project.
-
-## Pre-Class Learning (2 hr 20 minutes)
-### Required Materials:
-1. **Harvard CS50 Lecture 0** (1 hr 40 minutes)
-   - [Introduction to Computer Science](https://cs50.harvard.edu/x/2024/weeks/0/)
-   - Core programming concepts and computational thinking
-   
-2. **Coursera Python for Data Science, AI and Development** (40 minutes)
-   - Module 1: Python Basics
-   - Focus on syntax and basic operations
 
 ### Optional Supplementary Resources:
 - [Python.org Official Tutorial](https://docs.python.org/3/tutorial/) - Chapters 1-4
