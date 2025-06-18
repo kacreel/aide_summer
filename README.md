@@ -9,7 +9,7 @@ A 7-session intensive bootcamp covering Python fundamentals through advanced mac
 ## Course Structure
 
 ### [Class 1: Intro to Programming and Python](class1-intro-programming-python/)
-**Duration:** 90 minutes | **Pre-Class:** 2 hr 20 minutes
+**Duration:** 120 minutes | **Pre-Class:** 2 hr 20 minutes
 
 **Key Topics:**
 - Python fundamentals: variables, strings, data structures
@@ -18,7 +18,7 @@ A 7-session intensive bootcamp covering Python fundamentals through advanced mac
 - **Main Exercise:** [Python_Fundamentals_Complete.ipynb](class1-intro-programming-python/exercises/Python_Fundamentals_Complete.ipynb) - Comprehensive notebook with mini-project
 
 ### [Class 2: Classification and Working with Data](class2-classification-data/)
-**Duration:** 90 minutes | **Pre-Class:** 1 hr 30 minutes
+**Duration:** 120 minutes | **Pre-Class:** 1 hr 30 minutes
 
 **Key Topics:**
 - Data manipulation with Pandas
@@ -27,7 +27,7 @@ A 7-session intensive bootcamp covering Python fundamentals through advanced mac
 - **Exercises:** 6 focused notebooks covering data loading, selection, and ML algorithms
 
 ### [Class 3: ML Fairness and Bias](class3-ml-fairness/)
-**Duration:** 90 minutes | **Pre-Class:** Reading assignments
+**Duration:** 120 minutes | **Pre-Class:** Reading assignments
 
 **Key Topics:**
 - Algorithmic fairness and bias detection
@@ -36,7 +36,7 @@ A 7-session intensive bootcamp covering Python fundamentals through advanced mac
 - Ethical considerations in ML
 
 ### [Class 4: Advanced Trees and Fairness Tools](class4-advanced-trees/)
-**Duration:** 90 minutes
+**Duration:** 120 minutes
 
 **Key Topics:**
 - Advanced decision tree techniques
@@ -45,7 +45,7 @@ A 7-session intensive bootcamp covering Python fundamentals through advanced mac
 - **Exercises:** COMPAS analysis with solutions
 
 ### [Class 5: Differential Privacy](class5-differential-privacy/)
-**Duration:** 90 minutes | **Pre-Class:** Programming Differential Privacy Ch. 1
+**Duration:** 120 minutes | **Pre-Class:** Programming Differential Privacy Ch. 1
 
 **Key Topics:**
 - Privacy-preserving machine learning
@@ -54,7 +54,7 @@ A 7-session intensive bootcamp covering Python fundamentals through advanced mac
 - **Exercises:** Census and sleep data privacy analysis
 
 ### [Class 6: Neural Networks and LLM Concepts](class6-regression-llm/)
-**Duration:** 90 minutes | **Pre-Class:** 2 hr 45 minutes
+**Duration:** 120 minutes | **Pre-Class:** 2 hr 45 minutes
 
 **Key Topics:**
 - Perceptron and neural network fundamentals
@@ -63,7 +63,7 @@ A 7-session intensive bootcamp covering Python fundamentals through advanced mac
 - Mathematical foundations of modern AI
 
 ### [Class 7: Model Deployment and Capstone](class7-capstone/)
-**Duration:** 125 minutes | **Pre-Class:** 2 hr 30 minutes
+**Duration:** 120 minutes | **Pre-Class:** 2 hr 30 minutes
 
 **Key Topics:**
 - Hugging Face model deployment
