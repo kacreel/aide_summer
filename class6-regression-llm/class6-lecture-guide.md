@@ -30,6 +30,7 @@
 ### Session 1: Perceptron by Hand (20 minutes)
 **Foundational Neural Network Concepts**
 - **Resource:** [W3Schools Perceptrons](https://www.w3schools.com/ai/ai_perceptrons.asp)
+- **Exercise** [Should we go to the beach?](https://docs.google.com/document/d/1DO568DRaTakcIdWXkmlHw_XWUQNPqQru_66E8YS5Yw0/edit?usp=sharing)
 - Simple and straightforward introduction
 - Manual calculation of perceptron outputs
 - Transition to neural networks
