@@ -18,7 +18,7 @@
    - Mathematical intuition behind neural networks
 
 3. **Blog Post** (40 minutes)
-   - "[What is ChatGPT Doing…And Why Does it Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)" | [📁 Local File](./Tutorials/What%20Is%20ChatGPT%20Doing%20…%20and%20Why%20Does%20It%20Work?.md)
+   - "[What is ChatGPT Doing…And Why Does it Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)" | [📁 Local File](./Tutorials/What%20Is%20ChatGPT%20Doing.md)
    - Understanding transformer architecture and LLM behavior
 
 ## Class Schedule
@@ -93,8 +93,8 @@ By the end of this class, students will be able to:
 | Transformers by Hand | [📁 Markdown](./Tutorials/Deep%20Dive%20into%20Transformers%20by%20Hand%20✍︎.md) | [☁️ Google Doc](https://docs.google.com/document/d/12Y4gtQuzSpXj-pQLKJr6SrANs_oe9uVhBzjJ2mD0zjI/edit?usp=sharing) | Tutorial |
 | Self-Attention by Hand | [📁 Markdown](./Tutorials/Deep%20Dive%20into%20Self-Attention%20by%20Hand✍︎.md) | [☁️ Google Doc](https://docs.google.com/document/d/1i1XEISzYFbydbixtxZfVpTn8Q0NPoP4lKlz6e8BWEhc/edit?usp=sharing) | Advanced Tutorial |
 | Vector Databases by Hand | [📁 Markdown](./Tutorials/Deep%20Dive%20into%20Vector%20Databases%20by%20Hand%20✍︎.md) | - | Bonus Material |
-| Keys, Queries, Values Explained | [📁 Markdown](./Tutorials/What%20exactly%20are%20keys,%20queries,%20and%20values%20in%20attention%20mechanisms?.md) | [☁️ Stack Exchange](https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms) | Reference |
-| ChatGPT Explanation | [📁 Markdown](./Tutorials/What%20Is%20ChatGPT%20Doing%20…%20and%20Why%20Does%20It%20Work?.md) | [☁️ Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) | Blog Post |
+| Keys, Queries, Values Explained | [📁 Markdown](./Tutorials/keys_queries_values-attention_mechanisms.md) | [☁️ Stack Exchange](https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms) | Reference |
+| ChatGPT Explanation | [📁 Markdown](./Tutorials/What%20Is%20ChatGPT%20Doing.md) | [☁️ Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) | Blog Post |
 
 ### 🔗 External Resources
 | Resource | Description | Format |
@@ -104,7 +104,7 @@ By the end of this class, students will be able to:
 | [Matrix Multiplication](https://www.mathsisfun.com/algebra/matrix-multiplying.html) | Mathematical prerequisite | Reference |
 
 ### Optional Supplementary Resources:
-- [📁 CNN Tutorial](./Tutorials/What%20is%20a%20Convolutional%20Neural%20Network%20(CNN)%20%20Definition%20from%20TechTarget.md) - For computer vision context
+- [📁 CNN Tutorial](./Tutorials/Convolutional%20Neural%20Network%20(CNN).md) - For computer vision context
 - [📁 GPT Logit Lens](./Tutorials/interpreting%20GPT%20the%20logit%20lens%20—%20LessWrong.md) - Advanced interpretability
 - [Northeastern SEED Grant Projects](https://idi.provost.northeastern.edu/seed-grant-projects/) - Research context
 - [Byron Wallace Research](https://www.byronwallace.com/) - Additional ML resources
