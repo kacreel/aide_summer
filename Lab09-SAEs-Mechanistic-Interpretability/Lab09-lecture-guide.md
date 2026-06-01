@@ -1,5 +1,14 @@
 # Lab 9: Sparse Autoencoders & Mechanistic Interpretability
 
+## 🚀 Open in Colab
+
+| Version | Hardware | Model | Link |
+|---------|----------|-------|------|
+| **Normal** (default) | Free T4 | GPT-2 Small + Joseph Bloom's SAEs | [Open in Colab](https://drive.google.com/file/d/1pFY14lDww6qh9VrIMl-suFWsa3YOWASy/view?usp=sharing) |
+| **A100** | Colab Pro A100 | Gemma 2 9B + DeepMind's Gemma Scope SAEs | [Open in Colab](https://drive.google.com/file/d/1jbiCM8RnKpNl6Hols6bTd4fnSbKZJx4L/view?usp=sharing) |
+
+---
+
 ## Table of Contents
 1. [Pre-Lab Learning](#pre-lab-learning)
 2. [Lab Schedule](#lab-schedule)
@@ -112,3 +121,7 @@ When all three hold, this meets the same evidential standard neuroscience uses t
 
 **Previous Lab:** [← Lab 8 – Gentle Hugging Face – Capabilities of LLMs](../Lab08-Gentle%20Hugging%20Face-Capabilities%20of%20LLMs/Lab08-lecture-guide.md)  
 **Next Lab:** [Lab 10 – Context Engineering – (Graph)RAGged LLMs →](../Lab10-Context%20Engineering-(Graph)RAGged-LLMs/Lab10-lecture-guide.md)
+
+---
+
+**Author:** [Aniket Ghosh](https://www.linkedin.com/in/aniketghosh-/)
