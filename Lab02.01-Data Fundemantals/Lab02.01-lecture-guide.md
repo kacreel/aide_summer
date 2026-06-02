@@ -23,7 +23,7 @@ Welcome to Data Fundamentals! Today you'll learn essential data analysis skills 
 
 ### 💻 Technical Setup
 Make sure you can access:
-- **Google Colab:** [Lab 2.01 Notebook](https://colab.research.google.com/drive/1i4lHWAVDRH95NlHL-3DZExzy41ChE2UQ?usp=sharing)
+- **Google Colab:** [Lab 2.01 Notebook](https://drive.google.com/file/d/1ntYkPcpJj6_VXcnhMhcvKa0hr4BhKPcU/view?usp=sharing)
 - **Dataset:** You'll upload `philpapers_enhanced_clean.csv` during the session
 - **Libraries:** pandas, matplotlib, numpy (pre-installed in Colab)
 
@@ -129,7 +129,7 @@ Each part follows the same pattern:
 ### 📓 Today's Materials
 | Resource | Description |
 |----------|-------------|
-| [Lab 2.01 Colab Notebook](https://colab.research.google.com/drive/1i4lHWAVDRH95NlHL-3DZExzy41ChE2UQ?usp=sharing) | **Your main workspace** |
+| [Lab 2.01 Colab Notebook](https://drive.google.com/file/d/1ntYkPcpJj6_VXcnhMhcvKa0hr4BhKPcU/view?usp=sharing) | **Your main workspace** |
 | [Local Notebook](Scripts/Lab02.01.Data_Fundamentals_phil.ipynb) | **Backup version** |
 | Philosophy Papers Dataset | **Real research data you'll analyze** |
 
