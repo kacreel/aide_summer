@@ -14,7 +14,6 @@ Exploration of fairness in machine learning through hands-on analysis using Goog
 ### Required Materials:
 1. **Background Reading** (25 minutes)
    - [Machine Bias (ProPublica)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) - The original investigation that exposed COMPAS bias
-   - [Algorithmic Fairness (MIT Technology Review)](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-sentencing-algorithm/) - Overview of fairness in AI systems
    
 2. **Technical Preparation** (15 minutes)
    - [What-If Tool Overview](https://pair-code.github.io/what-if-tool/) - Skim the main page and features
