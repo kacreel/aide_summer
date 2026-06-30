@@ -45,6 +45,45 @@
 
 ---
 
+## Pre-Lab Email
+
+Send the day before. Swap any bracketed links for your own first.
+
+```
+Subject: Tomorrow's lab: looking inside a language model
+
+Hi everyone,
+
+Lab 9 is tomorrow, and it's the one I look forward to most. We pry open a
+language model and look at the features it uses to think. The tool is called a
+sparse autoencoder. The short version: it takes a model's tangled internal
+activity and turns it into something you can actually read.
+
+Three things before you arrive, about half an hour total.
+
+1. Read the first two sections of "Towards Monosemanticity" (Cunningham et al.,
+   2023) and look at the figures: https://transformer-circuits.pub/2023/monosemantic-features/index.html
+   Skip the math. Walk in with one idea: a single neuron fires for many
+   unrelated things, and the autoencoder pulls them apart.
+2. If "neuron", "activation", and "layer" don't already feel comfortable, watch
+   the 3Blue1Brown intro: https://www.youtube.com/watch?v=aircAruvnKk
+3. Open the notebook and skim Part 1 so the layout isn't a surprise:
+   https://drive.google.com/file/d/1pFY14lDww6qh9VrIMl-suFWsa3YOWASy/view
+
+Setup is light. We use the free version that runs on a Colab T4, so you only
+need a Google login. No token, no payment. (There's a bigger Gemma version if
+you want to play later. That one needs a Hugging Face account and you have to
+accept the Gemma license first. Optional, not for class.)
+
+Bring a question you'd want to ask a model about its own reasoning. We'll see
+how close we can get to an answer.
+
+See you tomorrow,
+[name]
+```
+
+---
+
 ## Lab Schedule (120 minutes)
 
 | Time | Section | Activity | Format |
@@ -123,5 +162,6 @@ When all three hold, this meets the same evidential standard neuroscience uses t
 **Next Lab:** [Lab 10 – Context Engineering – (Graph)RAGged LLMs →](../Lab10-Context%20Engineering-(Graph)RAGged-LLMs/Lab10-lecture-guide.md)
 
 ---
+
 
 **Author:** [Aniket Ghosh](https://www.linkedin.com/in/aniketghosh-/)

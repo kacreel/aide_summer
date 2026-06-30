@@ -41,6 +41,43 @@
 
 ---
 
+## Pre-Lab Email
+
+Send the day before. Swap any bracketed links for your own first.
+
+```
+Subject: Tomorrow: simulating how science actually makes progress
+
+Hi all,
+
+Lab 10 tomorrow. We step back from single models and ask a bigger question: how
+does a community of scientists, each one stubborn, partial, and working with
+patchy information, manage to get anything right? We'll build small simulations
+of scientific communities and watch what happens when you change how they talk
+to each other.
+
+One result caught me off guard the first time I saw it. Sometimes a community
+that shares information less freely reaches the truth more often. We'll work out
+why that happens.
+
+About 30 minutes to prepare.
+
+1. Read the short framing on the Zollman effect in the lecture guide. That's the
+   surprising result I just mentioned.
+2. Want the original argument? Skim a Zollman paper (2007 or 2010, both linked in
+   the guide). The introduction alone is plenty.
+3. Open the notebook and run the first couple of cells so your Colab is awake:
+   [notebook Colab link]
+
+No accounts, no installs, no heavy math. Bring your gut sense of how a group
+should be organized to find the truth. The lab is going to lean on it.
+
+See you there,
+[name]
+```
+
+---
+
 ## Lab Schedule (120 minutes)
 
 | Time | Section | Activity | Format |
@@ -161,7 +198,8 @@ Yes, and it's an open question whether it makes things better or worse. LLMs tra
 
 ## Navigation
 
-**Previous Lab:** [← Lab 9 – Sparse Autoencoders & Mechanistic Interpretability](../Lab09-SAEs-Mechanistic-Interpretability/Lab09-lecture-guide.md)
+**Previous Lab:** [← Lab 9 – Sparse Autoencoders & Mechanistic Interpretability](../Lab09-SAEs-Mechanistic-Interpretability/Lab09-lecture-guide.md)  
+**Next Lab:** [Lab 11 – Can a Machine Explain Itself? (LIME, SHAP, Saliency Maps) →](../Lab11-Explainable%20AI-LIME%20SHAP%20Saliency/Lab11-lecture-guide.md)
 
 
 --
