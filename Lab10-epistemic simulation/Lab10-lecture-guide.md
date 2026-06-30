@@ -29,15 +29,13 @@
 
 2. **Read — abstract + figures (~10 min):**
    - [Better than Best — Wu, 2019](https://doi.org/10.1086/703717)  
-     *Focus on*: the NK landscape setup (Section 2), the "better vs. best" distinction, and Figure 3. Skip the simulation details — you'll implement them. Key claim: mixed communities outperform homogeneous ones on rugged fitness landscapes.
+     *Focus on*: the NK landscape setup (Section 2), the "better vs. best" distinction, and Figure 3. Skip the simulation details; the notebook runs them for you. Key claim: mixed communities outperform homogeneous ones on rugged fitness landscapes.
 
-3. **Pick your starting notebook (~1 min):**
-   - **[Lab11A_MultiArmBandit.ipynb](Scripts/Lab11A_MultiArmBandit.ipynb)** — Multi-arm bandits; the Zollman Effect. Run first.
-   - **[Lab11B_NKLandscape.ipynb](Scripts/Lab11B_NKLandscape.ipynb)** — NK landscapes; epistemic diversity. Run second.
-   - Both notebooks run on free Colab T4 (no GPU required).
+3. **Open the notebook (~1 min):**
+   - **[Lab10_EpistemicSimulation.ipynb](Scripts/Lab10_EpistemicSimulation.ipynb)** is one self-contained notebook covering both Part 1 (Zollman Effect) and Part 2 (NK landscapes). No coding required; students run cells and move sliders. It runs on a free Colab CPU runtime, no GPU needed.
 
 4. **Preview the notebook (~5 min):**
-   - Skim Part 1 of whichever notebook you start with. The opening markdown explains the model before any code runs.
+   - Skim Part 1. The opening markdown explains each model before any code runs, and the simulations are driven by sliders rather than written by students.
 
 ---
 
@@ -137,10 +135,7 @@ Together, these results suggest that epistemic diversity is not merely a nice-to
 
 | Resource | Description |
 |----------|-------------|
-| [Lab11A_MultiArmBandit.ipynb](Scripts/Lab11A_MultiArmBandit.ipynb) | **Student notebook** — Multi-arm bandits (Zollman Effect). Start here. |
-| [Lab11A_MultiArmBandit_COMPLETED.ipynb](Scripts/Lab11A_MultiArmBandit_COMPLETED.ipynb) | **Instructor answer key** — Full solution + extended analysis (network zoo, community size sweep, heatmaps, Mill's dissenter) |
-| [Lab11B_NKLandscape.ipynb](Scripts/Lab11B_NKLandscape.ipynb) | **Student notebook** — NK landscapes (epistemic diversity). Run second. |
-| [Lab11B_NKLandscape_COMPLETED.ipynb](Scripts/Lab11B_NKLandscape_COMPLETED.ipynb) | **Instructor answer key** — Full solution + K sweep |
+| [Lab10_EpistemicSimulation.ipynb](Scripts/Lab10_EpistemicSimulation.ipynb) | The lab notebook. One file, both parts (Zollman Effect and NK landscapes). No coding; students run cells and move sliders. Runs on free Colab, no GPU. |
 | [Zollman 2007](https://doi.org/10.1086/524787) | **Required reading** — The Communication Structure of Epistemic Communities |
 | [Wu 2019](https://doi.org/10.1086/703717) | **Required reading** — Better than Best |
 | [dubova-et-al-2026.pdf](dubova-et-al-2026.pdf) | Optional deeper reading — theory-motivated vs. random experimentation |
@@ -176,12 +171,12 @@ Yes, and it's an open question whether it makes things better or worse. LLMs tra
 
 ## Instructor Notes
 
-- The Monte Carlo simulations take 2–3 minutes per cell on free Colab. Warn students to start runs before reading the next markdown section.
-- For Exercise 1 in Notebook 10B, nudge students who write something like `update_best` — the key difference is `np.random.choice(better_indices)` rather than `np.argmax`. The randomness is the point.
+- The interactive cells run after you press "Run interact". With the default slider settings each one finishes in a few seconds on free Colab. Pushing the sliders to their maximums (more runs, more rounds, more scientists) can stretch a cell to a minute or so. Tell students to start a run, then read the markdown below while it works.
+- In the Part 2 strategy showdown, the difference between "best" and "better" is that "best" jumps to the single top peer while "better" copies a random peer who is merely ahead. The randomness is the point; it keeps the community spread across the landscape. If students are skeptical, have them push the "% explorers" slider to 0 (everyone copies the leader) and then to 100, and compare the final scores on a rugged landscape.
 - The `NKLandscape.global_max()` method uses exhaustive search, feasible only for N ≤ 18. For N=10 it runs in under 1 second.
 - The `BtB_codes_sharable.py` file is the original simulation code from Wu's paper (Python 2.7 syntax — `print` without parentheses). It will not run directly; it's provided as reference only.
 - The `science_cliques/` folder contains a third model (Zollman's testimonial norms / "Science Cliques") — a useful extension for advanced students.
-- Both notebooks are independent. They can be taught sequentially in one 120-minute session or split across two shorter ones.
+- The two parts are independent. They fit one 120-minute session together, or either part can be split into its own shorter session.
 
 ---
 
