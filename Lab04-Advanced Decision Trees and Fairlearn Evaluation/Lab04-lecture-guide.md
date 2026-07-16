@@ -27,7 +27,7 @@ You'll need these libraries:
 - pandas (data manipulation)
 - scikit-learn (machine learning algorithms)  
 - fairlearn (fairness metrics)
-- matplotlib/seaborn (visualization)
+- matplotlib (visualization)
 
 ### 🎯 Learning Goals
 By the end of today, you'll be able to:
@@ -86,6 +86,14 @@ By the end of today, you'll be able to:
 
 **You'll learn:** How to think critically about deploying AI systems responsibly
 
+### 🌟 Bonus Challenges (if you finish early)
+Four optional extensions designed for students with a philosophy background:
+
+1. **Feature Engineering** — create a "juvenile trajectory" feature; reflect on Aristotelian habituation and whether past behavior should determine future predictions
+2. **Fairness Landscape Visualization** — use `MetricFrame` to plot FPR, FNR, TPR, and accuracy across all racial groups; engage with the Rawls vs. Nozick debate on distributive justice
+3. **Intersectionality** — analyze fairness by age, sex, and Race×Sex simultaneously; apply Crenshaw's intersectionality framework to algorithmic bias
+4. **Cross-Validation & Epistemic Humility** — use 10-fold CV to visualize accuracy variance; reflect on Humean induction, Kantian ends-vs-means, and practical wisdom (*phronesis*)
+
 ## What to Expect
 
 ### 📋 Exercise Structure
@@ -96,19 +104,30 @@ By the end of today, you'll be able to:
 | **Part 2** | **Model Building** | Train decision tree and evaluate accuracy | Basic ML workflow with sensitive data |
 | **Part 3** | **Fairness Analysis** | Calculate fairness metrics across racial groups | Quantifying bias and fairness trade-offs |
 | **Part 4** | **Model Comparison** | Implement and compare multiple algorithms | Finding the best approach for sensitive applications |
+| **Bonus** | **Philosophy & Fairness** | Feature engineering, intersectionality, cross-validation | Connecting algorithmic fairness to ethical theory |
 
 ## Resources
 
 ### 📓 Today's Materials
 | Resource | Description |
 |----------|-------------|
-| [COMPAS Exercises Notebook](Scripts/Lab04.COMPAS_exercises.ipynb) | **Your main workspace with guided exercises** |
+| [COMPAS Exercises Notebook](Scripts/Lab04.COMPAS_exercises.ipynb) | **Your main workspace — TODOs with 💡 hints** |
+| [COMPAS Completed Notebook](Scripts/Lab04.COMPAS_exercises_completed.ipynb) | **Reference solution — check your work here** |
 | [COMPAS Dataset](Data/compas-scores-two-years.csv) | **Real criminal justice data for analysis** |
 
 ### 📚 Additional Context
 - [Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) - Review decision trees concepts
 - [FairLearn Documentation](https://fairlearn.org/v0.10/user_guide/) - Understanding fairness metrics
 - [ProPublica COMPAS Investigation](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) - The journalism that exposed COMPAS bias
+
+### 📖 Philosophical References (for Bonus Challenges)
+- Aristotle, *Nicomachean Ethics* — habituation, character, and moral responsibility
+- Rawls, *A Theory of Justice* (1971) — difference principle and the worst-off group
+- Nozick, *Anarchy, State, and Utopia* (1974) — entitlement theory and historical justice
+- Crenshaw, "Demarginalizing the Intersection of Race and Sex" (1989) — intersectionality
+- Kant, *Groundwork for the Metaphysics of Morals* — treating persons as ends, not means
+- Angwin et al., "Machine Bias" *ProPublica* (2016) — the original COMPAS investigation
+- Chouldechova, "Fair Prediction with Disparate Impact" (2017) — impossibility theorem for fairness metrics
 
 
 ## 🗂️ Navigation

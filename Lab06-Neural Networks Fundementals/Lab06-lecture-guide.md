@@ -65,7 +65,7 @@ By the end of today, you'll be able to:
 
 **You'll learn:** The magic behind how neural networks improve over time
 
-**Materials**: [Neural Networks Tutorial with Backpropagation Examples](./Tutorials/02.NeuralNetworks.pdf)
+**Materials**: [Neural Networks Tutorial with Backpropagation Examples](./Exercises/02.NeuralNetworks.pdf)
 
 ### 🎉 Wrap-up and Reflection (10 minutes)
 - Review the complete journey from simple decisions to learning
@@ -121,7 +121,7 @@ This lab is **calculation-intensive** but **beginner-friendly**:
 | Resource | Description |
 |----------|-------------|
 | [Perceptron Exercise](./Exercises/01.PERCEPTRONs.pdf) | **Step-by-step practice problems** |
-| [Neural Networks Tutorial](./Tutorials/02.NeuralNetworks.pdf) | **Worked examples with complete calculations** |
+| [Neural Networks Tutorial](./Exercises/02.NeuralNetworks.pdf) | **Worked examples with complete calculations** |
 
 ### 📚 Background Study 
 | Resource | Description |
