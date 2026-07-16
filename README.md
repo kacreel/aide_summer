@@ -117,6 +117,45 @@ A multi-session intensive bootcamp covering Python fundamentals through advanced
 - Fill-in-the-blank, student-friendly coding
 - **Main Exercise:** [Lab10_(Graph)RAGged_LLMs.ipynb](Lab10-Context%20Engineering-(Graph)RAGged-LLMs/Scripts/Lab10_(Graph)RAGged_LLMs.ipynb) | [☁️ Colab](https://colab.research.google.com/drive/1fsHOrJtxJhk_3iaYObLFCEiodwHosluZ?usp=sharing)
 
+> **Note on numbering:** Labs 09 and 10 each exist as two parallel tracks. The
+> LLM-engineering track runs Lab 09 (Prompt Engineering) → Lab 10 (Context
+> Engineering). The interpretability & philosophy track runs Lab 09 (Sparse
+> Autoencoders) → Lab 10 (Epistemic Simulation) → Lab 11 (Explainable AI). Pick
+> the track that fits the session.
+
+### [Lab 09: Sparse Autoencoders & Mechanistic Interpretability](Lab09-SAEs-Mechanistic-Interpretability/) | [📋 Lecture Guide](Lab09-SAEs-Mechanistic-Interpretability/Lab09-lecture-guide.md)
+**Duration:** 120 minutes | **Pre-Lab:** 30 minutes
+
+**Key Topics:**
+- Polysemanticity and superposition in neural networks
+- Sparse Autoencoders (SAEs) and monosemantic features
+- Extracting features with SAELens on philosophical text
+- Cross-register artifact testing to rule out style effects
+- Causal proof via activation steering and suppression ablation
+- **Main Exercises:** [Lab09_SAE.ipynb](Lab09-SAEs-Mechanistic-Interpretability/Scripts/Lab09_SAE.ipynb) (GPT-2 Small, free T4) | [☁️ Colab](https://drive.google.com/file/d/1pFY14lDww6qh9VrIMl-suFWsa3YOWASy/view?usp=sharing) — and [Lab09_SAE_A100.ipynb](Lab09-SAEs-Mechanistic-Interpretability/Scripts/Lab09_SAE_A100.ipynb) (Gemma 2 9B, Colab Pro A100) | [☁️ Colab](https://drive.google.com/file/d/1jbiCM8RnKpNl6Hols6bTd4fnSbKZJx4L/view?usp=sharing)
+
+### [Lab 10: Agent-Based Models of Scientific Communities](Lab10-epistemic%20simulation/) | [📋 Lecture Guide](Lab10-epistemic%20simulation/Lab10-lecture-guide.md)
+**Duration:** 120 minutes | **Pre-Lab:** 20 minutes
+
+**Key Topics:**
+- The Zollman Effect: why denser communication networks can hinder collective discovery
+- Bayesian agents and the multi-arm bandit model
+- NK landscapes and how the parameter K controls ruggedness
+- "Best" vs. "Better" update strategies; the mixed-community advantage
+- Connecting simulation results to real science-policy debates
+- **Main Exercise:** [Lab10_EpistemicSimulation.ipynb](Lab10-epistemic%20simulation/Scripts/Lab10_EpistemicSimulation.ipynb) — one notebook, both parts; runs on free Colab CPU
+
+### [Lab 11: Can a Machine Explain Itself? (LIME, SHAP, Saliency Maps)](Lab11-Explainable%20AI-LIME%20SHAP%20Saliency/) | [📋 Lecture Guide](Lab11-Explainable%20AI-LIME%20SHAP%20Saliency/Lab11-lecture-guide.md)
+**Duration:** 120 minutes | **Pre-Lab:** 30 minutes
+
+**Key Topics:**
+- Post-hoc explanation with SHAP, LIME, and saliency maps / Grad-CAM
+- SHAP on COMPAS; the decision threshold as a value judgement
+- LIME on text; the confabulation and reasons-vs-causes problem
+- Saliency & Grad-CAM on images; Clever Hans / shortcut learning
+- The faithfulness problem: plausible explanations that still misdescribe the model
+- **Main Exercise:** [Lab11_Explaining_AI_Decisions.ipynb](Lab11-Explainable%20AI-LIME%20SHAP%20Saliency/Scripts/Lab11_Explaining_AI_Decisions.ipynb) — no coding required; runs on free Colab CPU
+
 ## Quick Navigation
 
 | Lab | Topic | Duration | Main Exercises |
@@ -133,6 +172,11 @@ A multi-session intensive bootcamp covering Python fundamentals through advanced
 | [Lab 08](Lab08-Gentle%20Hugging%20Face-Capabilities%20of%20LLMs/) | 10 LLM Capabilities & Huggingface | 120 min | Lab08_LLM_Capabilities.ipynb | [☁️ Colab](https://colab.research.google.com/drive/1lGTAstbC8phXBYNgp9c9OdfCxdC1tUa0?usp=sharing) |
 | [Lab 09](Lab09-Prompt%20Engineering-LLMs_with_APIs/) | LLMs with API | 120 min | Lab09_LLMwAPIs.ipynb | [☁️ Colab](https://colab.research.google.com/drive/1-lHhlUMUAF4DQWSU5U2Dc97VemjG9G85?usp=sharing) |
 | [Lab 10](Lab10-Context%20Engineering-(Graph)RAGged-LLMs/) | LLMs with RAG, Vector DBs, GraphRAG | 120 min | Lab10_(Graph)RAGged_LLMs.ipynb | [☁️ Colab](https://colab.research.google.com/drive/1fsHOrJtxJhk_3iaYObLFCEiodwHosluZ?usp=sharing) |
+| [Lab 09 ⑂](Lab09-SAEs-Mechanistic-Interpretability/) | Sparse Autoencoders & Mechanistic Interpretability | 120 min | Lab09_SAE.ipynb / Lab09_SAE_A100.ipynb | [☁️ T4](https://drive.google.com/file/d/1pFY14lDww6qh9VrIMl-suFWsa3YOWASy/view?usp=sharing) · [☁️ A100](https://drive.google.com/file/d/1jbiCM8RnKpNl6Hols6bTd4fnSbKZJx4L/view?usp=sharing) |
+| [Lab 10 ⑂](Lab10-epistemic%20simulation/) | Agent-Based Models of Scientific Communities | 120 min | Lab10_EpistemicSimulation.ipynb |
+| [Lab 11](Lab11-Explainable%20AI-LIME%20SHAP%20Saliency/) | Explainable AI — LIME, SHAP, Saliency | 120 min | Lab11_Explaining_AI_Decisions.ipynb |
+
+*⑂ marks the interpretability & philosophy track's parallel Lab 09 / Lab 10.*
 
 ## Repository Structure
 
@@ -173,8 +217,10 @@ Each lab folder contains:
 - **Python 3.7+** with standard data science libraries (pandas, numpy, scikit-learn)
 - **Jupyter Lab/Notebook** for local development
 - **Google Account** for Colab access (all labs include Colab links)
-- **Hugging Face Account** for Labs 08-10
-- **API Keys** for Lab 09 (OpenRouter/HuggingFace - free tiers available)
+- **Hugging Face Account** for Labs 08-10, and for the Lab 09 SAE lab (A100 version, gated Gemma 2 9B)
+- **API Keys** for Lab 09 Prompt Engineering (OpenRouter/HuggingFace - free tiers available)
+- **GPU runtime** for the Lab 09 SAE lab (free Colab T4, or Colab Pro A100 for the Gemma version); Labs 10 (Epistemic) and 11 run on free Colab CPU
+- **Notebook-installed libraries** for Lab 11 (`shap`, `lime`, `captum`) — no manual setup, the notebook installs them
 
 *Note: Each lab guide contains additional specialized resources relevant to that session.*
 
